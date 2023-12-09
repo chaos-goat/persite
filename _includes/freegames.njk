@@ -1,0 +1,36 @@
+---
+layout: base.njk
+pagination:
+    data: collections.freegames
+    size: 5
+    alias: freegamesposts
+    reverse: true
+---
+{{ content | safe }}
+    <hr>
+    <div>
+        {% for post in freegamesposts %}
+            <h2>{{ post.data.title }}</h2>
+            <p>Hyperspecific Genre: <strong>{{ post.data.genre }}</strong></p>
+            {{ post.templateContent | safe }}
+            <div class="fleximg">
+                {% for image in post.data.images%}
+                    <a href={{ image }} class="thumbnail">
+                        <img src={{ image }}>
+                    </a>
+                {% endfor %}
+            </div>
+            <a href={{ post.data.link }}>Link</a>
+            <br>
+            {{ post.date | postDate }}
+            <hr>
+        {% endfor %}
+        {% if pagination.href.previous %}
+            <a href="{{pagination.href.previous}}">Previous Page</a>
+        {% endif %}
+        {% if pagination.href.next %}
+            <a href="{{pagination.href.next}}">Next Page</a>
+        {% endif %}
+    </div>
+
+    

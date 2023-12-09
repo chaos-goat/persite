@@ -1,0 +1,7 @@
+<h2>My car doesn't have bumper stickers...</h2>
+    <div class="flexblinkies">
+      {% for img in "src/assets/blinkies/*.{gif,jpg,jpeg}" | gallery %}
+      <img src={{ img | replace('src/', '/') }} />
+      {%- endfor %}
+    </div>
+<h2 style="text-align: right;">but my site sure as hell does!</h2>

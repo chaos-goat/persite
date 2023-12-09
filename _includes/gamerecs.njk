@@ -1,0 +1,36 @@
+---
+layout: base.njk
+pagination:
+    data: collections.gamerec
+    size: 5
+    alias: gamerecposts
+    reverse: true
+---
+{{ content | safe }}
+    <hr>
+    <div>
+        {% for post in gamerecposts %}
+            <h2>{{ post.data.title }}</h2>
+            <p>Hyperspecific Genre: <strong>{{ post.data.genre }}</strong></p>
+            {{ post.templateContent | safe }}
+            <div class="fleximg">
+                {% for image in post.data.images%}
+                    <a href={{ image }} class="thumbnail">
+                        <img src={{ image }}>
+                    </a>
+                {% endfor %}
+            </div>
+            <a href={{ post.data.link }}>Store Link</a>
+            <br>
+            {{ post.date | postDate }}
+            <hr>
+        {% endfor %}
+        {% if pagination.href.previous %}
+            <a href="{{pagination.href.previous}}">Previous Page</a>
+        {% endif %}
+        {% if pagination.href.next %}
+            <a href="{{pagination.href.next}}">Next Page</a>
+        {% endif %}
+    </div>
+
+    
