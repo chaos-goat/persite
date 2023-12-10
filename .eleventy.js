@@ -6,6 +6,11 @@ const { DateTime } = require("luxon");
 const fg = require('fast-glob');
 
 module.exports = function (eleventyConfig) {
+    eleventyConfig.setFrontMatterParsingOptions({
+        excerpt: true,
+        // Optional, default is "---"
+        excerpt_separator: "<!-- excerpt -->"
+      });
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addWatchTarget('src/css');

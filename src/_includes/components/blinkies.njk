@@ -1,6 +1,11 @@
 <h2>My car doesn't have bumper stickers...</h2>
     <div class="flexblinkies">
-      {% for img in "src/assets/blinkies/*.{gif,jpg,jpeg}" | gallery %}
+      {% for img in "src/assets/blinkies/short/*.{gif,jpg,jpeg,png}" | gallery %}
+      <img src={{ img | replace('src/', '/') }} />
+      {%- endfor %}
+    </div>
+    <div class="flexblinkies">
+      {% for img in "src/assets/blinkies/long/*.{gif,jpg,jpeg,png}" | gallery %}
       <img src={{ img | replace('src/', '/') }} />
       {%- endfor %}
     </div>

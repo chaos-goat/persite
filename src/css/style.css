@@ -22,10 +22,15 @@
 .flexblinkies {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	gap:0 2rem;
 	padding: 1%
+}
+
+.blogcard {
+	border-color: black;
+	border-style: solid;
+	border-width: .25em;
 }
 
 #content-wrap {

@@ -1,0 +1,14 @@
+---
+title: Blog!
+layout: base.njk
+---
+
+{% for blog in collections.blogs %}
+<div class="blogcard">
+<a href="{{ blog.url }}">{{ blog.data.title }}</a>
+<p>{{ blog.page.excerpt }}</p>
+</div>
+<div>
+<p>{{ blog.date | postDate }}</p>
+</div>
+{% endfor %}
