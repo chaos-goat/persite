@@ -61,6 +61,7 @@ ul.footer {
 
 li {
 	float: center;
+	font-size: 1em;
 }
 
 li a, .dropbtn {
@@ -69,6 +70,7 @@ li a, .dropbtn {
 	text-align: center;
 	padding: 14px 16px;
 	text-description: none;
+	font-size: 1em;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -142,7 +144,13 @@ body {
 	
  }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 600px) {
+	.flexmain {
+		flex-direction: column;
+	}
+}
+
+@media screen and (orientation: portrait) {
 	.flexmain {
 		flex-direction: column;
 	}
