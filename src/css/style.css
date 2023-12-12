@@ -19,18 +19,60 @@
     padding: 1% 1%;
 }
 
+.blogflex {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 2rem;
+    padding: 1% 1%;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+
+	& .bloga:visited {
+		color: black;
+	}
+	
+	& .bloga:link {
+		color: black;
+	}
+
+	& .bloga {
+		width: 46%;
+		text-decoration: none;
+	
+	& .blogcard {
+		border-color: black;
+		border-style: solid;
+		border-width: .2em;
+		box-shadow: .25em .375em black;
+		margin: 1em 0em;
+		padding: 0em 0em .25em .25em;
+		background-color: #ffd0d8;
+
+		& .blogheader {
+			& h3 {
+				margin: .25em 0em 0em 0em;
+			}
+		
+			& p {
+				margin: 0em;
+			}
+		}
+	}
+
+	& .blogcard:hover{
+		border-style: dashed;
+		border-color: #faffc0;
+		}
+	}
+}
+
 .flexblinkies {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	padding: 1%
-}
-
-.blogcard {
-	border-color: black;
-	border-style: solid;
-	border-width: .25em;
 }
 
 #content-wrap {

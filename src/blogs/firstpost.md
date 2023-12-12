@@ -1,5 +1,5 @@
 ---
-title: "test post"
+title: "Proper Caps, A Medium Test of My Boxes"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
 layout: "base.njk"

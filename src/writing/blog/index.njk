@@ -3,12 +3,16 @@ title: Blog!
 layout: base.njk
 ---
 
-{% for blog in collections.blogs %}
+<div class="blogflex">
+{% for blog in collections.blogs | reverse %}
+<a href="{{ blog.url }}" class="bloga">
 <div class="blogcard">
-<a href="{{ blog.url }}">{{ blog.data.title }}</a>
-<p>{{ blog.page.excerpt }}</p>
-</div>
-<div>
+<div class="blogheader">
+<h3>{{ blog.data.title }}</h3>
 <p>{{ blog.date | postDate }}</p>
 </div>
+<p>{{ blog.page.excerpt }}</p>
+</div>
+</a>
 {% endfor %}
+</div>
