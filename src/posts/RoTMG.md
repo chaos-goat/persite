@@ -1,7 +1,7 @@
 ---
 title: "Realm of the Mad God"
 tags: "freegames"
-genre: "Bullet Hell MMO Rogulite Soup"
+genre: "Bullet Hell MMO Roguelite Soup"
 link: "https://store.steampowered.com/app/200210/Realm_of_the_Mad_God_Exalt/"
 images: [/assets/shortform/rotmg.jpg]
 date: 2023-12-06

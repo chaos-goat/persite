@@ -5,6 +5,12 @@ desc: "A list of the updates to this site... and I'm sure an ever growing list o
 tags: "sitestuff"
 ---
 
+- 12/15/23
+    - first blog post stating I have no idea what I'm doing with a blog post
+    - WIP uses page updated.
+    - New game added: Hyperspace Dogfights! *(and luftrausers)*
+    - updates entries will be shorter from now on
+
 - 12/12/23 - Multiple updates over the past couple days, at some point this pace will slow down but not yet.
 
     - Blog added, no posts yet.

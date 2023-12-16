@@ -76,7 +76,7 @@
 }
 
 #content-wrap {
-	padding-bottom: 2.5rem;    /* Footer height */
+	padding-bottom: 2.5em;    /* Footer height */
   }
 
 ul.nav {
@@ -90,8 +90,8 @@ ul.nav {
 
 ul.footer {
 	position: absolute;
-	bottom: 0;
 	width: 100%;
+	bottom: 0;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -99,6 +99,7 @@ ul.footer {
 	background-color: #fcb77a;
 	color: black;
 	text-align: center;
+	line-height: 1em;
 }
 
 li {
@@ -154,11 +155,17 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	font-size: 1.4em;
+	line-height: 1.5em;
 }
 
-.fleximg img {
-	max-width: 30%;
-	height: auto;
+.fleximg {
+	text-align: center;
+
+	& img {
+		max-width: 30%;
+		height: auto;
+	}
 }
 
 #lightbox {

@@ -6,8 +6,10 @@ pagination:
     alias: freegamesposts
     reverse: true
 ---
+{% if page.url == "/writing/freegames/" %}
 {{ content | safe }}
     <hr>
+{% endif %}
     <div>
         {% for post in freegamesposts %}
             <h2>{{ post.data.title }}</h2>
