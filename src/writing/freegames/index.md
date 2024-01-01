@@ -1,6 +1,8 @@
 ---
 title: "Free Games That Don't Suck!"
 layout: "freegames.njk"
+tags: "writing"
+desc: "A small collection of free games that you should try"
 ---
 
 # Free Games That Don't Suck # 

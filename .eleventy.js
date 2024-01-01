@@ -4,6 +4,8 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const { DateTime } = require("luxon");
 // fast glob for iterating over folders and including files, used for images etc
 const fg = require('fast-glob');
+// for excerpt rendering
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setFrontMatterParsingOptions({
@@ -23,6 +25,9 @@ module.exports = function (eleventyConfig) {
       });
     eleventyConfig.addFilter("gallery", function (dir="") {
         return fg.sync(dir);
+      });
+    eleventyConfig.addFilter("md", function (content = "") {
+        return markdownIt({ html: true }).render(content);
       });
     return {
         dir: {

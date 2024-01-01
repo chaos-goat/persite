@@ -1,6 +1,8 @@
 ---
 title: Blog!
 layout: base.njk
+tags: "writing"
+desc: "What it says on the tin: A blog!"
 ---
 
 <div class="blogflex">
@@ -11,7 +13,7 @@ layout: base.njk
 <h3>{{ blog.data.title }}</h3>
 <p>{{ blog.date | postDate }}</p>
 </div>
-<p>{{ blog.page.excerpt }}</p>
+<p>{{ blog.page.excerpt | md | safe }}</p>
 </div>
 </a>
 {% endfor %}
