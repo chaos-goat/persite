@@ -193,9 +193,16 @@ body {
 	
  }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.flexmain {
 		flex-direction: column;
+	}
+
+	.blogflex {
+
+		& .bloga{
+		width: 100%;
+		}
 	}
 }
 

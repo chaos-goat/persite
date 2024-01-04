@@ -14,5 +14,8 @@
     "@11ty/eleventy": "^2.0.1",
     "fast-glob": "^3.3.2",
     "markdown-it": "^14.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }

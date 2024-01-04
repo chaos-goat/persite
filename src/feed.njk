@@ -1,0 +1,41 @@
+---json
+{
+  "permalink": "feed.json",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Goat's Bloggy Blog",
+    "subtitle": "[insert subtitle here]",
+    "language": "en",
+    "url": "chaosgoat.neocities.org",
+    "author": {
+      "name": "Goat",
+      "url": "https://chaosgoat.neocities.org/"
+    }
+  }
+}
+---
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "{{ metadata.title }}",
+  "language": "{{ metadata.language }}",
+  "home_page_url": "{{ metadata.url }}",
+  "feed_url": "{{ permalink | absoluteUrl(metadata.url) }}",
+  "description": "{{ metadata.subtitle }}",
+  "author": {
+    "name": "{{ metadata.author.name }}",
+    "url": "{{ metadata.author.url }}"
+  },
+  "items": [
+    {%- for blog in collections.blogs | reverse %}
+    {%- set absolutePostUrl = blog.url | absoluteUrl(metadata.url) %}
+    {
+      "id": "{{ absolutePostUrl }}",
+      "url": "{{ absolutePostUrl }}",
+      "title": "{{ blog.data.title }}",
+      "content_html": {% if blog.templateContent %}{{ blog.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+      "date_published": "{{ blog.date | dateToRfc3339 }}"
+    }
+    {% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ]
+}
