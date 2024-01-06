@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Generic Beer 1",
+        "brewery": "Guys With Beards",
+        "style": "Stout",
+        "rating": "Meh",
+        "abv": "12%",
+        "desc": "Smooth, in the negative sense of the word. Extremely sweet with no standout qualities, this is someone's beer but it's not mine.",
+        "pic": "/assets/shortform/alienswarm.jpg"
+    },
+    {
+        "name": "Generic Beer 2",
+        "brewery": "Girls who Brew",
+        "style": "Hefewiezen",
+        "rating": "Yay",
+        "abv": "6%",
+        "desc": "Heavy baking spices and cloves, tastes like bread and bananas in the best possible way. Light, crushable and tasty.",
+        "pic": "/assets/shortform/alienswarm.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+---
+layout: base.njk
+data: beer
+alias: beer
+"permalink": false
+tags: "writingignore"
+title: "Beers"
+desc: "Beers I've drank since some time in early 2024"
+
+---
+{% for beer in beer %}
+
+
+<div class="fleximg">
+    <h3>{{ beer.name }}</h3>
+    {% for pic in beer.pic %}
+        <a href={{ beer.pic }} class="thumbnail">
+            <img src={{ beer.pic }}>
+        </a>
+    {% endfor %}
+</div>
+<ul>
+<li>{{ beer.brewery }}</li>
+<li>{{ beer.style }}</li>
+<li>{{ beer.rating }}</li>
+<li>{{ beer.abv }}</li>
+<li>{{ beer.desc }}</li>
+</ul>
+<br>
+{% endfor %}

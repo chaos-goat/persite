@@ -3,7 +3,7 @@ title: "A Manifesto"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
 layout: "base.njk"
-date: "git Created"
+date: 2024-01-01
 ---
 
 **I**'m kidding. I'm not a big manifesto guy. No I'm more likely to be the guy sitting at the bar bitching about some esoteric nonsense...<!-- excerpt --> wait maybe I ***AM*** a manifesto kind of guy. *Hmm*.
