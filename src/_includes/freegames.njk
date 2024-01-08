@@ -7,11 +7,14 @@ pagination:
     reverse: true
 ---
 {% if page.url == "/writing/freegames/" %}
+<section>
 {{ content | safe }}
     <hr>
+</section>
 {% endif %}
-    <div>
+    <article>
         {% for post in freegamesposts %}
+        <section>
             <h2>{{ post.data.title }}</h2>
             <p>Hyperspecific Genre: <strong>{{ post.data.genre }}</strong></p>
             {{ post.templateContent | safe }}
@@ -26,13 +29,16 @@ pagination:
             <br>
             {{ post.date | postDate }}
             <hr>
+            </section>
         {% endfor %}
+        <nav>
         {% if pagination.href.previous %}
             <a href="{{pagination.href.previous}}">Previous Page</a>
         {% endif %}
         {% if pagination.href.next %}
             <a href="{{pagination.href.next}}">Next Page</a>
+        </nav>
         {% endif %}
-    </div>
+    </article>
 
     

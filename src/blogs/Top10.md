@@ -55,7 +55,7 @@ I actually have more to say about this and may follow it up, especially with how
 ### Further Reading
 
 - [The listicle as literary form](https://mag.uchicago.edu/arts-humanities/listicle-literary-form)
-    - My issue is with Top 10 lists specifically, this is an explanation of the listicle as a literay form. And yeah, listicles can slap, Top 10s not so much.
+    - My issue is with Top 10 lists specifically, this is an explanation of the listicle as a literary form. And yeah, listicles can slap, Top 10s not so much.
 - [5 Reasons Listicles Are Here to Stay, and Why That's OK](https://www.wired.com/2014/01/defense-listicle-list-article/)
     - A defense of the listicle. I disagree about the ADHD point - the nomenclature issue absolutely. Listicles don't give you ADHD, but they can work in concert with the rest of modern life to shorten your attention span. Be aware of what you consume and how it affects you.
 - Not a link but if you search around for "why Top 10 lists suck"... just wow. I didn't think I was original with this but I did not realize so much digital ink had been spilled upon it.

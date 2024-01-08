@@ -3,10 +3,10 @@ layout: "base.njk"
 title: "Site Stuff and Junk"
 ---
 
-<p></p>
-
+<article>
 <ul>
 {% for post  in collections.sitestuff %}
 <li class="auto"><a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.desc }}</li>
 {% endfor %}
 </ul>
+</article>

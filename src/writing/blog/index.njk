@@ -5,16 +5,16 @@ tags: "writing"
 desc: "What it says on the tin: A blog!"
 ---
 
-<div class="blogflex">
+<article class="blogflex">
 {% for blog in collections.blogs | reverse %}
-<a href="{{ blog.url }}" class="bloga">
-<div class="blogcard">
-<div class="blogheader">
-<h3>{{ blog.data.title }}</h3>
-<p>{{ blog.date | postDate }}</p>
-</div>
-<p>{{ blog.page.excerpt | md | safe }}</p>
-</div>
-</a>
+        <a href="{{ blog.url }}" class="bloga">
+            <div class="blogcard">
+                <div class="blogheader">
+                    <h3>{{ blog.data.title }}</h3>
+                    <p>{{ blog.date | postDate }}</p>
+                </div>
+                <p>{{ blog.page.excerpt | md | safe }}</p>
+            </div>
+        </a>
 {% endfor %}
-</div>
+</article>

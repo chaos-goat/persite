@@ -2,14 +2,17 @@
 layout: base.njk
 pagination:
     data: collections.gamerec
-    size: 5
+    size: 10
     alias: gamerecposts
     reverse: true
 ---
-{{ content | safe }}
+<section>
+    {{ content | safe }}
+</section>
     <hr>
-    <div>
+    <article>
         {% for post in gamerecposts %}
+            <section>
             <h2>{{ post.data.title }}</h2>
             <p>Hyperspecific Genre: <strong>{{ post.data.genre }}</strong></p>
             {{ post.templateContent | safe }}
@@ -24,13 +27,16 @@ pagination:
             <br>
             {{ post.date | postDate }}
             <hr>
+            </section>
         {% endfor %}
+        <nav>
         {% if pagination.href.previous %}
             <a href="{{pagination.href.previous}}">Previous Page</a>
         {% endif %}
         {% if pagination.href.next %}
             <a href="{{pagination.href.next}}">Next Page</a>
+        </nav>
         {% endif %}
-    </div>
+    </article>
 
     

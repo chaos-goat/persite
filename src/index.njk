@@ -2,8 +2,15 @@
 title: "Goat's Desert"
 layout: "base.njk" 
 ---
-
-{% include "components/aboutme.njk" %}
-{% include "components/colors.njk" %}
-{# {% include "components/sitesilike.njk" %} #}
-{% include "components/blinkies.njk" %}
+<article>
+    <section>
+        {% include "components/aboutme.njk" %}
+    </section>
+    <section>
+        {% include "components/colors.njk" %}
+    </section>
+        {# {% include "components/sitesilike.njk" %} #}
+    <section>
+        {% include "components/blinkies.njk" %}
+    </section>
+</article>

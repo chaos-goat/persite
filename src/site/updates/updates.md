@@ -5,6 +5,8 @@ desc: "A list of the updates to this site... and I'm sure an ever growing list o
 tags: "sitestuff"
 ---
 
+- 1/7/24 - Updated the majority of the site to use semantic html, in prep for adding aria labels.
+- 1/1/24 - Blog added.
 - 12/15/23
     - first blog post stating I have no idea what I'm doing with a blog post
     - WIP uses page updated.

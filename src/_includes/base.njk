@@ -9,13 +9,15 @@
 </head>
 <body>
     <div id="page-container">
-        <div id="content-wrap">
-                {% include "components/navbar.njk" %}
-                    <div  id="content">
+                <nav>
+                    {% include "components/navbar.njk" %}
+                </nav>
+                <main id="content">
                         {{ content | safe }}
-                    </div>
-        </div>
+                </main>
+        <footer>
         {% include "components/footer.njk" %}
+        </footer>
     </div>
 <div id="lightbox"></div>
 </body>
