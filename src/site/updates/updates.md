@@ -5,6 +5,7 @@ desc: "A list of the updates to this site... and I'm sure an ever growing list o
 tags: "sitestuff"
 ---
 
+- 2/24/24 - Blog post added, Atom and json feeds added, new game added to game recs (Roboquest), changes default font choice on the site to system fonts and messed with sizing a bit.
 - 1/7/24 - Updated the majority of the site to use semantic html, in prep for adding aria labels.
 - 1/1/24 - Blog added.
 - 12/15/23

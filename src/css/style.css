@@ -152,8 +152,9 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	font-family: system-ui, sans-serif;
 	font-size: 1.4em;
-	line-height: 1.5em;
+	line-height: 1.8em;
 }
 
 .fleximg {

@@ -1,0 +1,19 @@
+---
+title: "Flow State vs Fugue State"
+permalink: "/blog/{{ title | slugify }}/"
+tags: "blogs"
+layout: "base.njk"
+date: 2024-02-24
+---
+
+I **hate** Vampire Survivors and it's ilk. There. I said it. <!-- excerpt -->This is something I've talked about with friends and they're always surprised, many of them love the mindlessness of those games and find them relaxing. I get it, I do, but I feel like I'm sitting at a slot machine letting it *drain* me of energy. I've described it as feeling like it is "hacking my brain" and I have this extremely strong **gut level** negative reaction to it. I have that same negative reaction to endlessly scrolling on TikTok or YouTube, outrage or "haul" videos, binging seasons worth of extremely mid TV (Suits, Law & Order I'm looking at **YOU**). And I think I know why.
+
+***Flow State feels good.***
+
+When I play a game like Dig Dug or Robotron 2084 I slip into a flow state eventually. This is pretty common, we've all experienced being in the zone and **losing ourselves** in something. I, like most people, enjoy this feeling. Being **locked in** and **firing on all cylinders** without having to actively think about it is **GREAT**. No thoughts, just **DO**. I personally find my mind to be noisy, chaotic, and turbulent which is something that I've grown to like about myself but it can also be exhausting. Being caught in the currents of my ADHD can feel like *surfing when it's good*, or **drowning in a tsunami of static when its bad**. The flow state, the being locked in to the activity at such a low level that active thoughts are pushed away in favor of what feels more like instinctual action, can then become cathartic and offer a reprieve from the mental turbulence.
+
+For anyone that has ever gambled and has felt the allure of the slot machine, that mindless activity you can just zone out to with *flashing lights* and **bleep bloop** sounds that provides a drip feed of dopamine to the reward center in your brain, then you've experienced the pleasure of being in the flow state. If that sounds alien to you but you've also unintentionally played candy crush or bejeweled, or literally any other video game for hours in a near **fugue state** it's an identical thing happening. Now I just swapped the word *flow state* for **fugue state** and you can see my bias at play there. Sometimes flow feels *good and soothing* to me. Sometimes it feels **bad and dangerous**. What's the difference?
+
+For me the difference is the ease with which you slip into the flow. The games I mentioned up top are relatively difficult games like most arcade games from the '80s. To slip into a flow state with them requires: learned skill at them, concentration, and crucially it can't be kept up forever. I could mindlessly scroll TikTok or play a slot machine for hours and feel my life slowly **draining** away from me as I feed the **destructive impulse gremlins** that live in my brain but playing at a high level in, say, Defender? I can do maybe an hour of that and get 2 decent length runs in. I think my record is 35 minutes which I think is pretty good but is nowhere near a world record. It feels almost like working out a part of my brain as opposed to being truly mindless. A form of *mindfulness* maybe.
+
+Now I've bashed TikTok, slot machines, and worst of all: Law and Order here. I'm not saying these things are bad to engage with, play, use, whatever. For some people they could be addictive, but almost anything can be psychologically addictive. If these are things you like or you find comforting or fun then enjoy them. What I'm doing here is exploring my own feelings on why I like some activities that could be described as mindless due to the thought suppressing nature of them, but not others. And I still ***really don't like*** what Vampire Survivors or slot machines do to my brain.

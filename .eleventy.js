@@ -15,6 +15,12 @@ module.exports = function (eleventyConfig) {
         // Optional, default is "---"
         excerpt_separator: "<!-- excerpt -->"
       });
+    eleventyConfig.addPlugin(
+      require('@photogabble/eleventy-plugin-interlinker'),
+        {
+          defaultLayout: 'layouts/embed.liquid'
+        }
+      );
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     eleventyConfig.addPassthroughCopy('src/css');
