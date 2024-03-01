@@ -204,6 +204,22 @@ body {
 	}
 }
 
+.flexicoend {
+	display: flex; 
+	padding:10px 0px 0px 0px; 
+	justify-content:flex-end;
+}
+
+
+.ico {
+	margin:10px 25px 0px 0px;
+
+	& img {
+		width: 2rem;
+		height: 2rem;
+	}
+}
+
 @media screen and (orientation: portrait) {
 	.flexmain {
 		flex-direction: column;

@@ -5,6 +5,7 @@ tags: "writing"
 desc: "What it says on the tin: A blog!"
 ---
 
+ {% include "components/blogsvgs.njk" %}
 <article class="blogflex">
 {% for blog in collections.blogs | reverse %}
         <a href="{{ blog.url }}" class="bloga">
