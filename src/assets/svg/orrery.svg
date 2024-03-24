@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1920 1800" width="1920" height="1800" style="background-color: gray" xmlns="http://www.w3.org/2000/svg">
+
+  <path id="path-1" d="         M 952, 900         a 8,8 0 1,1 16,0           8,8 0 1,1 -16,0         " fill="none" stroke="black"/>
+  <circle id="Mercury" r="1.2" fill="red">
+      <animateMotion dur="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-1"/>
+      </animateMotion>
+    </circle>  
+      <path id="path-2" d="         M 945, 900         a 15,15 0 1,1 30,0          15,15 0 1,1 -30,0         " fill="none" stroke="black"/>
+    <circle id="Venus" r="3" fill="antiquewhite">
+      <animateMotion dur="2.5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-2"/>
+      </animateMotion>
+    </circle>
+        <path id="path-3" d="         M 939, 900         a 21,21 0 1,1 42,0          21,21 0 1,1 -42,0         " fill="none" stroke="black"/>
+    <circle id="Earth" r="3.12" fill="cornflowerblue">
+      <animateMotion dur="4s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-3"/>
+      </animateMotion>
+    </circle>
+          <path id="path-4" d="         M 929, 900         a 31,31 0 1,1 62,0          31,31 0 1,1 -62,0         " fill="none" stroke="black"/>
+    <circle id="Mars" r="1.68" fill="darkred">
+      <animateMotion dur="8s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-4"/>
+      </animateMotion>
+    </circle>
+            <path id="path-5" d="         M 853, 900         a 107,107 0 1,1 214,0          107,107 0 1,1 -214,0         " fill="none" stroke="black"/>
+    <circle id="Jupiter" r="35.16" fill="darkgoldenrod">
+      <animateMotion dur="50s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-5"/>
+      </animateMotion>
+    </circle>
+            <path id="path-6" d="         M 764, 900         a 196,196 0 1,1 392,0          196,196 0 1,1 -392,0         " fill="none" stroke="black"/>
+    <circle id="saturn" r="29.52" fill="goldenrod">
+      <animateMotion dur="122s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-6"/>
+      </animateMotion>
+    </circle>
+            <path id="path-7" d="         M 566, 900         a 393,393 0 1,1 786,0          393,393 0 1,1 -786,0         " fill="none" stroke="black"/>
+    <circle id="Uranus" r="12.84" fill="lightblue">
+      <animateMotion dur="348s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-7"/>
+      </animateMotion>
+    </circle>
+            <path id="path-8" d="         M 343, 900         a 616,616 0 1,1 1232,0          616,616 0 1,1 -1232,0         " fill="none" stroke="black"/>
+    <circle id="Neptune" r="11.88" fill="darkblue">
+      <animateMotion dur="680s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-8"/>
+      </animateMotion>
+    </circle>
+    <circle id="Pluto" r="1" fill="brown">
+      <animateMotion dur="1028s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+        <mpath href="#path-9"/>
+      </animateMotion>
+    </circle>
+    <path id="path-9" d="         M 160, 900         a 800,800 0 1,1 1600,0          800,800 0 1,1 -1600,0         " fill="none" stroke="black"/>
+    <text text-anchor="right">
+	<textPath href="#path-9" startOffset="100%">
+	<animate attributeName="startOffset" from="100%" to="0%" begin="0s" dur="1028s" repeatCount="indefinite">
+	</animate>
+	Pluto
+	</textPath>
+    </text>
+  <circle id="sun" r="5" cx="960" cy="900" fill="white" stroke="black">
+  </circle>
+</svg>

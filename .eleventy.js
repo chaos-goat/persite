@@ -9,6 +9,23 @@ const markdownIt = require("markdown-it");
 // for atom/rss feed
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+function liquidfleximg(content) {
+  return `
+    <div class="fleximg">
+      ${content}
+    </div>
+  `.replace(/(\r\n|\n|\r)/gm, "");;
+}
+
+async function liquidfleximgthumb(src, alt) {
+  return `
+      <a href="${src}" class="thumbnail">
+        <img src="${src}" alt="${alt}"/>
+      </a>
+    `.replace(/(\r\n|\n|\r)/gm, "");;
+}
+
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
@@ -23,6 +40,8 @@ module.exports = function (eleventyConfig) {
       );
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+    eleventyConfig.addPairedLiquidShortcode('fleximage', liquidfleximg);
+    eleventyConfig.addLiquidShortcode('thmb', liquidfleximgthumb);
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addWatchTarget('src/css');
     eleventyConfig.addPassthroughCopy('src/assets');
