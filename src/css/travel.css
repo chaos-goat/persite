@@ -1,0 +1,124 @@
+:root {
+    --color-scheme: dark;
+}
+
+html {
+    color-scheme: var(--color-scheme);
+  }
+
+body {
+    margin: 0;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+main {
+    margin: auto;
+}
+
+.slides {
+    background: linear-gradient(454deg, rgb(100, 26, 2) 0%, rgb(221, 4, 105) 25%, rgb(213, 5, 199) 50%, rgb(125, 12, 223) 75%, rgb(0, 21, 255) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.slide{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0em 1em;
+    justify-content: space-between;
+}
+
+.slide>img{
+    max-width: 50%;
+    max-height: 90%;
+}
+
+.fontup {
+    font-size: 4rem;
+}
+
+.titlebanner {
+    margin:0;
+    background-color: darkblue;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.right{
+    margin-right: 1em;
+    margin-left: 2em;
+    padding: 1em;
+    max-width: 40%;
+}
+
+.left {
+    margin-left: 1em;
+    margin-right: 2em;
+    padding: 1em;
+    width: 40%;
+
+}
+
+img.right, img.left{
+    max-width: 40%;
+    height: auto;
+}
+
+.center {
+    width: 60%;
+    padding: 1em;
+    margin: auto;
+}
+
+.flow {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.card {
+    border: 2px firebrick solid;
+    padding: 0;
+    div.hd {
+        width: 100%;
+        background-color:firebrick;
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+    div.bdy{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+
+        div.stats {
+            width: 40%;
+            border-right: 2px firebrick solid;
+
+            h4 {
+                text-align: center;
+            }
+        }
+
+        div.blurb {
+            width:60%;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+}
