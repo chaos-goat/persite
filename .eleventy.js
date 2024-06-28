@@ -17,6 +17,24 @@ function liquidfleximg(content) {
   `.replace(/(\r\n|\n|\r)/gm, "");;
 }
 
+function liquidfleximgbig(content, caption) {
+  if (caption == null) {
+    return `
+    <div class="fleximgbig">
+      <img src="${content}">
+    </div>
+  `.replace(/(\r\n|\n|\r)/gm, "");;
+  }
+  else {
+  return `
+    <div class="fleximgbig">
+      <img src="${content}">
+      <figcaption>${caption}</figcaption>
+    </div>
+  `.replace(/(\r\n|\n|\r)/gm, "");;
+}
+}
+
 async function liquidfleximgthumb(src, alt) {
   return `
       <a href="${src}" class="thumbnail">
@@ -41,6 +59,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     eleventyConfig.addPairedLiquidShortcode('fleximage', liquidfleximg);
+    eleventyConfig.addShortcode('imagebig', liquidfleximgbig);
     eleventyConfig.addLiquidShortcode('thmb', liquidfleximgthumb);
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addWatchTarget('src/css');

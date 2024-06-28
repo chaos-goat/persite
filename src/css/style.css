@@ -109,7 +109,7 @@ li a, .dropbtn {
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
-	text-description: none;
+	text-decoration: none;
 	font-size: 1em;
 }
 
@@ -163,6 +163,25 @@ body {
 	& img {
 		max-width: 30%;
 		height: auto;
+	}
+}
+.fleximgbig {
+	text-align: center;
+
+	& img {
+		max-width: 70%;
+		height: auto;
+	}
+
+	& figcaption {
+		font-style: italic;
+		font-size: 1rem;
+		line-height: 1rem;
+		background-color: black;
+		color: white;
+		padding: .25em;
+		max-width: 70%;
+		margin: auto;
 	}
 }
 
