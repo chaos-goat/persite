@@ -4,6 +4,31 @@ title: "Updates or How I Broke Things... Again."
 desc: "A list of the updates to this site... and I'm sure an ever growing list of me breaking everything."
 tags: "sitestuff"
 ---
+- I don't update this list nearly as often as I should: 
+
+    - Shrines:
+
+        - 6/21/24 New [32bit.cafe](https://32bit.cafe/) code jam page created: [Travelocalpyse](/travelocalypse/) a post apocalyptic travel agency that's effectively a hub for post apocalyptic media recommendations.
+
+        - 6/8/24 - New Shrine: [Goat Games](/shrines/goatgames/), inspired by a friend.
+
+        - 3/24/24 - New [32bit.cafe](https://32bit.cafe/) code jam page created: [What has creating a personal website done for me?](/shrines/website/)
+
+    - Blogs:
+
+        - Known Space Part 1 Added - first in a series about two intertwined book series I'm reading.
+
+    - Site Updates:
+        - finally fixed mobile CSS, no longer displays only 4 words per line. Make sure when you test your layouts, you're using a good test!
+        - My Nav link styling is no longer infecting the rest of my links
+        - linespacing and fontsize are now done in rem instead of em - spacing is tighter, but it looks better.
+        - To Do: Adding a prefers dark mode.
+
+    - Game Recs:
+        - Working on a having site regeneration automated for them so I can uploaded them as I think about it.
+        - 2/24/24 - Roboquest
+        - 1/7/24 - Soko Loco Deluxe
+        - 1/7/24 - Furious Angels
 
 - 2/24/24 - Blog post added, Atom and json feeds added, new game added to game recs (Roboquest), changes default font choice on the site to system fonts and messed with sizing a bit.
 - 1/7/24 - Updated the majority of the site to use semantic html, in prep for adding aria labels.
