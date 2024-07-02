@@ -44,12 +44,19 @@ main {
     font-size: 4rem;
 }
 
+.titlesection {
+    display: flex;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: center;
+}
+
 .titlebanner {
     margin:0;
-    background-color: darkblue;
     font-weight: 700;
     font-size: 5rem;
     text-align: center;
+    display: block;
 }
 
 .right{
@@ -121,4 +128,14 @@ img.right, img.left{
             padding-right: 1em;
         }
     }
+}
+
+.stamp {
+    opacity: 0;
+    display: hidden;
+    float: left;
+}
+
+.stamp:hover {
+    opacity: 1;
 }
