@@ -4,6 +4,10 @@ title: "Updates or How I Broke Things... Again."
 desc: "A list of the updates to this site... and I'm sure an ever growing list of me breaking everything."
 tags: "sitestuff"
 ---
+- 7/4/24
+    - new dark mode colors!
+    - new dark mode background!
+
 - 7/3/24 
     - Swapped colors in main CSS to variables, added extremely rudimentary dark mode support (it's not good).
     - changed font spacing for like the thirtieth time, we may keep this, we may not. WHO KNOWS?!

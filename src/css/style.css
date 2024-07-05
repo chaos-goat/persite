@@ -3,22 +3,30 @@
 	--primary-accent-color: #fcb77a;
 	--secondary-accent-color: #faffc0;
 	--tertiary-accent-color: #c0ffe4;
+	--tertiary-accent-color-dark: #a8dfc8 ;
 	--link-solid-color: black;
 	--link-standout-color: #faffc0;
 	--link-standout-highlight: #c0ffe4;
+	--bg-background-image: url("/assets/bgrnd/basebackground3.jpg");
+	color: black;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
 	:root {
-		--main-bg-color: #6b5055;
-		--primary-accent-color: #8b6544;
-		--secondary-accent-color: #7b7e5e;
-		--tertiary-accent-color: #5a7a6c ;
+		/*Tetradic on #131249*/
+		--main-bg-color: #131249;
+		--primary-accent-color: #491312;
+		--secondary-accent-color: #492F12;
+		--tertiary-accent-color: #484912;
+		--tertiary-accent-color-dark: #36370E;
 		--link-solid-color: white;
-		--link-standout-color: #7b7e5e;
-		--link-standout-highlight: #5a7a6c;
+		--link-standout-color: #492F12;
+		--link-standout-highlight: #484912;
+		--bg-background-image: url("/assets/bgrnd/WebsiteDarkBG.jpg");
 		color: white;
 	}
+
+
 }
 
 main{
@@ -135,7 +143,6 @@ ul.footer {
 	padding: 0;
 	overflow: hidden;
 	background-color: var(--primary-accent-color);
-	color: black;
 	text-align: center;
 	line-height: 1em;
 }
@@ -182,7 +189,9 @@ nav {
 		text-align: left;
 	}
 
-	.dropdown-content a:hover {background-color: #a8dfc8;}
+	.dropdown-content a:hover {
+		background-color: var(--tertiary-accent-color-dark);
+	}
 
 	.dropdown:hover .dropdown-content {
 		display:block;
@@ -193,7 +202,7 @@ nav {
 	body {
 		max-width: 75%;
 		margin: auto;
-		background-image: url("/assets/bgrnd/basebackground3.jpg");
+		background-image: var(--bg-background-image);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
