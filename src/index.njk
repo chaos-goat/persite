@@ -2,20 +2,12 @@
 title: "Goat's Desert"
 layout: "base.njk" 
 ---
-<article>
-    <section>
-        {% include "components/aboutme.njk" %}
-    </section>
-    <section>
-        {% include "components/colors.njk" %}
-    </section>
-        {# {% include "components/sitesilike.njk" %} #}
-    <section>
-        {% include "components/blinkies.njk" %}
-    </section>
+    {% include "components/aboutme.njk" %}
+    {% include "components/colors.njk" %}
+    {% include "components/sitesilike.njk" %}
+    {% include "components/blinkies.njk" %}
     <section>
         <a href="/sitemap.xml">
             <img style="width: 2rem; height: 2rem" src="/assets/svg/sitemap.svg" alt="sitemap icon" title="sitemap">
         </a>
     </section>
-</article>

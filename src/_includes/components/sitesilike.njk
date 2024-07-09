@@ -1,2 +1,11 @@
-<h2>Sites I Like!</h2>
+<article>
+    <h2>Sites I Like!</h2>
 
+    <section class="flexbuttons">
+        {% for friend in friends %}
+                <a href={{ friend.site }}>
+                    <img src= {{ friend.button }}>
+                </a>
+        {% endfor %}
+    </section>
+</article>

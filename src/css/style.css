@@ -1,5 +1,6 @@
 :root {
-	--main-bg-color: #ffc0cb;
+	/*old main-bg-color: #FFC0CB*/
+	--main-bg-color: #FFE7EC;
 	--primary-accent-color: #fcb77a;
 	--secondary-accent-color: #faffc0;
 	--tertiary-accent-color: #c0ffe4;
@@ -9,6 +10,7 @@
 	--link-standout-highlight: #c0ffe4;
 	--bg-background-image: url("/assets/bgrnd/basebackground3.jpg");
 	color: black;
+	font-weight:500;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +26,7 @@
 		--link-standout-highlight: #484912;
 		--bg-background-image: url("/assets/bgrnd/WebsiteDarkBG.jpg");
 		color: white;
+		font-weight:500;
 	}
 
 
@@ -123,6 +126,20 @@ main{
 	justify-content: center;
 	align-items: center;
 	padding: 1%
+}
+
+.flexbuttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1%;
+	gap: 3rem;
+
+	summary {
+		cursor: pointer;
+		list-style:circle;
+	}
 }
 
 ul.nav {
