@@ -120,6 +120,11 @@ main{
 	}
 }
 
+.center {
+	justify-content: center;
+	text-align: center;
+}
+
 .flexblinkies {
 	display: flex;
 	flex-wrap: wrap;
