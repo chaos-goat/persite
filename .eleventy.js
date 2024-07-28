@@ -21,14 +21,18 @@ function liquidfleximgbig(content, caption) {
   if (caption == null) {
     return `
     <div class="fleximgbig">
-      <img src="${content}">
+      <a href=${content} class="thumbnail">
+        <img src="${content}">
+      </a>
     </div>
   `.replace(/(\r\n|\n|\r)/gm, "");;
   }
   else {
   return `
     <div class="fleximgbig">
-      <img src="${content}">
+      <a href=${content} class="thumbnail">
+        <img src="${content}">
+      </a>
       <figcaption>${caption}</figcaption>
     </div>
   `.replace(/(\r\n|\n|\r)/gm, "");;

@@ -88,7 +88,9 @@ main{
 	}
 
 	& .bloga {
-		width: 46%;
+		flex: 1;
+		min-width: 40%;
+		max-width: 50%;
 		text-decoration: none;
 	
 	& .blogcard {
@@ -165,6 +167,10 @@ ul.footer {
 	background-color: var(--primary-accent-color);
 	text-align: center;
 	line-height: 1rem;
+
+	p {
+		margin:13px;
+	}
 }
 
 nav {
@@ -295,6 +301,8 @@ nav {
 
 		& .bloga{
 		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
 		}
 	}
 }
