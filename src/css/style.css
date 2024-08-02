@@ -9,6 +9,7 @@
 	--link-standout-color: #faffc0;
 	--link-standout-highlight: #c0ffe4;
 	--bg-background-image: url("/assets/bgrnd/basebackground3.jpg");
+	--text-color: black;
 	color: black;
 }
 
@@ -24,6 +25,7 @@
 		--link-standout-color: #492F12;
 		--link-standout-highlight: #484912;
 		--bg-background-image: url("/assets/bgrnd/WebsiteDarkBG.jpg");
+		--text-color: white;
 		color: white;
 	}
 
@@ -68,6 +70,48 @@ main{
     align-items: center;
     gap: 0 2rem;
     padding: 1% 1%;
+}
+
+.pfp {
+	filter: drop-shadow(0 0 .5rem var(--primary-accent-color));
+}
+
+.omglol {
+
+	gap: 1rem;
+	padding: .25rem;
+	border: 5px solid black;
+	box-shadow: .25em .375em black;
+	background-color: var(--tertiary-accent-color);
+
+	.statuslol {
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;	
+
+	}
+
+	.statuslol_time {
+		font-size: .75rem;
+	}
+
+	.omgbutton {
+		background-color: var(--primary-accent-color);
+		padding: 1rem 2rem;
+		display: inline-block;
+		margin: 1rem 0 1rem 0;
+		border-radius: 1rem;
+		color: var(--text-color);
+		box-shadow: .25em .375em black;
+		text-decoration: none;
+	}
+
+	.omgbutton:hover {
+		background-color: var(--secondary-accent-color);
+		box-shadow: none;
+		text-decoration: none;
+	}
 }
 
 .blogflex {
