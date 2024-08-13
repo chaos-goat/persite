@@ -1,0 +1,206 @@
+---
+title: "Designing Board Games: A take"
+tags: shrine
+desc: This is my take on how to go about designing a board game.
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/b2s.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+
+    $(document).ready(function() {
+
+    // Variables
+    var $codeSnippets = $('.code-example-body'),
+    $nav = $('.navbar'),
+    $body = $('body'),
+    $window = $(window),
+    $popoverLink = $('[data-popover]'),
+    navOffsetTop = $nav.offset().top,
+    $document = $(document),
+    entityMap = {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': '&quot;',
+      "'": '&#39;',
+      "/": '&#x2F;'
+    }
+
+    
+    function init() {
+    $window.on('scroll', onScroll)
+    $window.on('resize', resize)
+    $popoverLink.on('click', openPopover)
+    $document.on('click', closePopover)
+    $('a[href^="#"]').on('click', smoothScroll)
+    buildSnippets();
+  }
+
+    function resize() {
+        $body.removeClass('has-docked-nav')
+        navOffsetTop = $nav.offset().top
+        onScroll()
+}
+    
+      function onScroll() {
+        if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
+          $body.addClass('has-docked-nav')
+        }
+        if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
+          $body.removeClass('has-docked-nav')
+        }
+}
+
+init();
+
+});
+
+</script>
+</head>
+<body>
+
+    <div class="container">
+        <header class="row">
+            <div class="twelve columns title">
+                <H1>Board Game Design 092:</H1>
+                <h4>a brief introduction</h4>
+            </div>
+        </header>
+        <nav class="row navbar">
+            <div class="two columns">
+                <a href="#Foreward">Foreward</a>
+            </div>
+            <div class="two columns">
+                <a href="#DesignTypes">Types of Design</a>
+            </div>
+            <div class="two columns">
+                <a href="#ThePlan">The Plan</a>
+            </div>
+            <div class="two columns">
+                <a href="#Section4">Section 4</a>
+            </div>
+            <div class="two columns">
+                <a href="#Section5">Section 5</a>
+            </div>
+            <div class="two columns">
+                <a href="#Section6">Section 6</a>
+            </div>
+        </nav>
+        <main>
+            <article id="Foreward">
+                <section>
+                    <div class="row">
+                        <div class="twelve columns sectionheader">
+                            <h2>Foreward</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns">
+                            <P>Placeholder title card</P>
+                        </div>
+                        <div class="eight columns">
+                            <p>First: This is one goat's opinion. There are many different ways to design a game and none of them are wrong if they end up with a game being made by the end. I'm not an expert, I've never even been a pert. I have published a game, but that was a group effort by three other designers, myself, our developer, and other staff at our publisher. What I'm saying is being published is not necessarily any indication of me "knowing what I'm doing."</p>
+
+                            <p>Second: If you're going to do a historical, social, or political topic one of things I cannot stress enough is read exhaustively about your subject. Go find the best academic books and papers you can and absorb everything. Become, if not an expert on the subject, at least well read on it. You need that footing to create a model of the subject and do it the justice it deserves.</p>
+
+                            <p>Third: <span class="emphasis"    >Have fun.</span> Don't stress over it. Play around with ideas. Don't be afraid to change things wildly if your initial ideas don't work. Seek collaboration from online board game design spaces, there are many.</p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article id="DesignTypes">
+                <section>
+                    <div class="row">
+                        <div class="twelve columns sectionheader">
+                            <h2>How to Start Designing a Board Game</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="two columns">
+                            <p></p>
+                        </div>
+                        <div class="eight columns">
+                            <p>So you want to make a board game? Cool. You've got some options:</p>
+
+                            <h3>First, the Eighth Circle of Design Hell:</h3>
+                            <h4>Flattery and Imitation</h4>
+
+                            <p>You can take a game and retheme it. This is as simple as making Settlers of Catan into a game set on a different planet, making a local version of Monopoly, redoing a Vietnam war game as a Space Marines vs Tyranids warhammer 40k war game... you name it. This is the easiest to do and generally only requires theming components, not changing mechanics. It can also be a disservice to both the new and old theme such as in the case of the Vietnam to Warhammer 40k pipeline. Tread lightly, don't make light of the plight of others. <span class="emphasis">Repsect your subject.</span></p>
+
+                            <p>But it's a valid way to "create" a game, and you should keep this in mind for when you're getting started. It's a way to get comfortable with the language (metaphorically speaking) of design.</p>
+
+                            <h3>Second, the Sixth Circle of Design Hell:</h3>
+                            <h4>Heresy and Expansion</h4>
+
+                            <p>Expanding a game is a really good way to come to grips with both how all the mechanics of a game work together, and how one or two specific mechanics, systems, or ideas can be done. This would be adding different islands to Catan (Seafarers of Catan) or maybe adding some more complexity to armies and city building (Knights and Cities). It could be expanding a historical game to a related time period, or just grafting a combat mechanic on to Monopoly because you're a sadist and why we can't have nice things.</p>
+
+                            <h3>Third, the Fourth Circle of Design Hell:</h3>
+                            <h4>Greed and Stealing Everything That Isn't Nailed Down</h4>
+
+                            <p>Taking a game that you like and using its system and mechanics to support a different subject is a lot of designers first foray into game design. I'm part of staff for the COIN Series Player's Club Discord and people who started as fans of that series have created volumes set during: the Bakumatsu (1853 - 1867 Japan), the Onin War (1467 - 1477 Japan), modern day Somalia, the British Emergencies (1940s - 1960s: Malaya, Kenya, Palestine, and Cyprus) among many others. If you find a system and you think to yourself "Y'know... that could underlay the model for this other thing pretty well..." Do it. Give it a shot. You'll have to touch every part of the system in one way or another so it's a really effective crash course in game design. Some systems are easier to do this with than others, and fictional subjects are generally easier than historical ones but don't let that stop you. Just treat your subject with respect.</p>
+
+                            <h3>Fourth, The First Circle of Design Hell:</h3>
+                            <h4>Limbo and the Virtuous Nerds</h4>
+
+                            <p>Make a whole ass game from scratch without directly borrowing significant pieces of it from the giants who shoulders you would otherwise be standing on. I have no real advice here - this is really hard to do in a way that's A) authentic and B) good. Good luck, god speed if you go this route.</p>
+                            
+                            <h3>What I'll be Demonstrating</h3>
+
+                            <p>I'm going to show the Fourth Circle of Design Hell, by stealing a bunch of neat things in service of an idea I want to model.</p>
+
+                            <p>In case you're wondering why I'm describing design as hell, think of it as development hell/production hell and not in terms of being hell to go through. It just (mostly) takes a lot longer to design things than you think it will. You'll be done with 90% of it pretty quickly, but that last 10% takes forever. This is just the way things go.</p>
+
+                        </div>
+                        <div class="two columns">
+                            <p></p>
+                        </div>
+                    </div>
+                </article>
+                <article id="ThePlan">
+                    <div class="row">
+                        <div class="twelve columns sectionheader">
+                            <h2>The Plan.</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third column">
+                        </div>
+                        <div class="two-thirds column">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="six columns">
+                            <p>So what's the process? For the kind of historical-ish games I like it's:</p>
+                            <ul>
+                                <li>Come up with your subject and a thesis.
+                                <li>Start with a model
+                                <li>Got an idea and know how you want to model it? Sweet! Try it out.
+                                <li>Test it.
+                                <li>Make changes. Test it again.
+                                <li>Do the two steps above before showing it to a friend, ideally someone that's brutally honest.
+                                <li>Test. Refine. Test. Refine.
+                                <li>Test it Publicly - get feedback and be gracious about it.
+                                <li>Eventually you'll wrap it up - either it'll be what you want it to be, or you'll be done with it.
+                                <li>Release it into the wild!
+                                </ul>
+                        </div>
+                        <div class="six columns">
+                            <p></p>
+                        </div>
+                    </div>
+
+                </section>
+            </article>
+        </main>
+    
+    </div>
+</body>
+</html>
