@@ -269,16 +269,17 @@ nav {
 
 	}
 
-	body {
-		max-width: 65%;
-		margin: auto;
-		background-image: var(--bg-background-image);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		font-family: system-ui, sans-serif;
-		font-size: 1.4rem;
-		& p {
+body {
+	max-width: 65%;
+	margin: auto;
+	background-image: var(--bg-background-image);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: system-ui, sans-serif;
+	font-size: 1.4rem;
+		
+	& p {
 			line-height: 2rem;
 		}
 }
