@@ -42,7 +42,8 @@ main,
 menu,
 nav,
 section,
-summary {
+summary,
+blockquote {
   display: block;
 }
 
@@ -424,4 +425,9 @@ table {
 td,
 th {
   padding: 0;
+}
+
+
+blockquote {
+  margin: 0;
 }

@@ -33,6 +33,25 @@ body {
     color: #111;
 }
 
+.bquote {
+    border: solid 1px black;
+    margin-bottom: 1rem;
+
+    blockquote {
+    font-style: italic;
+    margin: 0rem 1rem;
+    }
+
+    p {
+        font-weight: bold;
+        text-align: right;
+        margin-right: 5rem;
+    }
+
+}
+
+
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
