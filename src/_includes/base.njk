@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
     <link rel="stylesheet" href="/css/style.css" />
+    {% if page.url == "/" %}
+    <link href="mailto:chaosgoat@omg.lol" rel="me">
+    {% endif %}
     <title>{{ title }}</title>
     <script src="/script/lightbox.js"></script>
 </head>
