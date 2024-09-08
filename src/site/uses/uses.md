@@ -3,7 +3,7 @@ layout: "base.njk"
 title: "Stuff I Use!"
 desc: "Just some things I use"
 tags: "sitestuff"
-permalink: "/uses"
+permalink: "/uses.html"
 ---
 
 ### Software
