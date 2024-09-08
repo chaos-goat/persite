@@ -3,6 +3,7 @@ tags: "sitestuff"
 title: "Links!"
 desc: "It's a Links Page. It has links. You know how this works."
 layout: "base.njk"
+permalink: "/links"
 ---
 
 **Tech, Tutorials, etc**

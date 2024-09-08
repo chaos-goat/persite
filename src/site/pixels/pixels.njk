@@ -1,0 +1,31 @@
+---
+tags: "sitestuff"
+title: "Pixel Clubs"
+desc: "My Pixel Clubs!"
+layout: "base.njk"
+permalink: "/pixels"
+---
+
+<article class="center">
+    <h2>Pantson Color Club</h2>
+    <p>Wanna Join?! <a href="https://pantson.xandra.cc/">Click Me!</a></p>
+
+    <section class="center">
+        <p>My Color Card for now, yes it's a Warhammer 40k reference, and it's reasonably close to the Khorne Red paint color.</p>
+        <img src="/assets/pixel/pantson/khorneflakes.png">
+    </section>
+    <hr>
+    <section class="center">
+        <h3>Color Swatches from Friends!</h3>
+        <p>Just a copy of mine for the moment while I wait for people to okay me taking theirs.</p>
+        <div class="flexblinkies">
+            {% for pantson in pantsons %}
+                {% if pantson.site | length > 0 %}
+                    <a href={{ pantson.site }} title="{{ pantson.title }}"">
+                        <img src="{{ pantson.colortag }}">
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+</article>

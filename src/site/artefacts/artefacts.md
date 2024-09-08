@@ -3,6 +3,7 @@ title: "Artefacts"
 desc: "Fan created bits of ephemera. Hosted elsewhere when possible."
 tags: "sitestuff"
 layout: "base.njk"
+permalink: "/artefacts"
 ---
 
 # Purpose 
