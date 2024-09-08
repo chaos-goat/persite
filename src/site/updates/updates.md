@@ -3,7 +3,7 @@ layout: "base.njk"
 title: "Updates or How I Broke Things... Again."
 desc: "A list of the updates to this site... and I'm sure an ever growing list of me breaking everything."
 tags: "sitestuff"
-permalink: "/updates.html"
+permalink: "/updates/"
 ---
 - 7/11/24
     - new Blog Post
