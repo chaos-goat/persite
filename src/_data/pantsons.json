@@ -1,5 +1,11 @@
 [
     {"title" : "Khorne Flakes",
      "site": "https://chaosgoat.neocities.org/",
-     "colortag": "/assets/pixel/pantson/khorneflakes.png"}
+     "colortag": "/assets/pixel/pantson/khorneflakes.png"},
+     {"title" : "Pale Peach",
+     "site": "https://xandra.cc/",
+     "colortag": "/assets/pixel/pantson/palepeach.png"},
+     {"title" : "Da Blues",
+     "site": "https://bulltown.joejenett.com/",
+     "colortag": "/assets/pixel/pantson/dablues.png"}
 ]
