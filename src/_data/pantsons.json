@@ -7,5 +7,11 @@
      "colortag": "/assets/pixel/pantson/palepeach.png"},
      {"title" : "Da Blues",
      "site": "https://bulltown.joejenett.com/",
-     "colortag": "/assets/pixel/pantson/dablues.png"}
+     "colortag": "/assets/pixel/pantson/dablues.png"},
+     {"title": "Psyche",
+    "site": "https://manyface.neocities.org/",
+    "colortag": "/assets/pixel/pantson/psychepants2.png"},
+    {"title": "Lizard",
+    "site": "https://manyface.neocities.org/",
+    "colortag": "/assets/pixel/pantson/lizardpants2.png"}
 ]
