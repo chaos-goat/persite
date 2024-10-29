@@ -18,7 +18,16 @@ This Next Fest I ended up trying **TWENTY FIVE** games which is actually not a r
 
 *WARNING: starting from here there are going to be many hotlinked webm videos to steam microtrailers, which are a beta test thing Valve has been doing for years. They may at some point stop working, I've included store links as well. These microtrailers have no sound.*
 
+I'm a big fan of simple rating systems: You don't need a 10 point rating system, or 5 stars, or god forbid 100 point system to rate games effectively: Yeah, Meh, Nah is all you need. I've chosen to add a fourth level here because I'm indicating both how much I liked the game and also how likely I am to buy it:
 
+- Games I loved
+-- will likely be bought
+- Games I liked
+-- might not be bought, but I did like them
+- Games that were meh
+-- sometimes a game just doesn't land. Doesn't mean it's the games fault.
+- Games that I did not like
+-- most of these are less "I didn't like them" and more "they're broken, too alpha, not ready for a demo yet."
 
 ## Games I loved
 
@@ -29,6 +38,8 @@ This Next Fest I ended up trying **TWENTY FIVE** games which is actually not a r
                         Your browser does not support the video tag.
         </video>
 </div>
+
+
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2958790/Cyclopean/"><h3>Cyclopean</h3></a>
