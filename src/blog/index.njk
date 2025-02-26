@@ -6,9 +6,9 @@ desc: "What it says on the tin: A blog!"
 ---
 
  {% include "components/blogsvgs.njk" %}
-<article class="blogflex">
+<article class="bloggrid">
 {% for blog in collections.blogs | reverse %}
-        <a href="{{ blog.url }}" class="bloga">
+        <a href="{{ blog.url }}">
             <div class="blogcard">
                 <div class="blogheader">
                     <h3>{{ blog.data.title }}</h3>

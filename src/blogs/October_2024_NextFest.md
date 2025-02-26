@@ -3,8 +3,8 @@ title: "Steam Next Fest October 2024"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
 layout: "base.njk"
-date: 2024-10-25
-draft: true
+date: 2025-02-26
+draft: false
 ---
 
 I played so many games, warning - media heavy post. Lots of hotlinked webms.
@@ -28,7 +28,7 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
 - Games that were meh
 -- sometimes a game just doesn't land. Doesn't mean it's the games fault.
 - Games that I did not like
--- most of these are less "I didn't like them" and more "they're broken, too alpha, not ready for a demo yet."
+-- most of these are less "I didn't like them" and more "they're broken or too alpha or not ready for a demo yet."
 
 ## Games I loved
 
@@ -40,7 +40,7 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
-
+As a heavy metal stealth archer game I didn't know what to expect. The UI is brilliant, having it all on the bow and hand tattoos is such a cool take on minimalism. The low gravity environment makes getting hit super impactful. The world with massive snake skeletons and demons is radical.
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2958790/Cyclopean/"><h3>Cyclopean</h3></a>
@@ -50,6 +50,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Cyclopean is an old school first person dungeon crawler with a top down overworld. Extremely old school in both visuals and gameplay. Lovecraftian through and through (space cats, gugs, zooz, dholes, the works.). Unforgiving. I kind of love it.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2382520/Erenshor/"><h3>Erenshor</h3></a>
         <video width="80%" controls>
@@ -57,6 +59,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+A single player MMO. Weird concept. Other players are simulated like bots in any shooter, with more elaborate chatter routines. Mixture of Runescape and Everquest as the influence. I liked it a lot, but it's very much an alpha product. Something to keep an eye on, I'd love to raid in this game (that's planned, or already done but not in the demo)
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/1699480/KLETKA/"><h3>KLETKA</h3></a>
@@ -66,6 +70,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Lethal Company but your conveyance to different floors in an endless building is a demonic elevator that must be fed. Really fun, great if you like this breed of janky co-op horror game.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2256450/RAM_Random_Access_Mayhem/"><h3>RAM: Random Access Mayhem</h3></a>
         <video width="80%" controls>
@@ -73,6 +79,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Reminds me a lot of Neurovoider. You're a protagonist without a body, you hijack temporary robot bodies using a resource that fills as you kill. When your body is ready to die you can hop to another one. VERY frenetic and fast paced, I loved it but am trash at it.
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/1598780/Silly_Polly_Beast/"><h3>Silly Polly Beast</h3></a>
@@ -82,6 +90,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+What even is this: A survival horror, top down shooter? Every room your view point changes: from sidescroller, to top down, to isometric with tankish controls, to third person. You're in hell, you've got a magical gun with six bullets (ala Heavy Bullets) and you get your bullets back when things die. You've also got a skateboard to skate with (runner segments) or beat the hell out of demons with. Good attitude, weird game. I like it a lot.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2165810/Streets_of_Rogue_2/"><h3>Streets of Rogue 2</h3></a>
         <video width="80%" controls>
@@ -89,6 +99,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Extremely pre-alpha but also extremely promising. I've very much looking forward to what this will be like in Multiplayer. Top down, co-op GTA meets immersive sim (think Deus Ex/the new Prey).
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2063390/VA_Proxy/"><h3>V.A Proxy</h3></a>
@@ -98,6 +110,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Bastard love child of Furi, Nier Automata, and Risk of Rain 2. Hyper kinetic combat focused on parrying. Cool, weird glitch aesthetic and world. You really feel like a Robot Ninja while playing this.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2736690/Void_Sols/"><h3>Void Sols</h3></a>
         <video width="80%" controls>
@@ -105,6 +119,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Soulslike with simple shapes as the player/enemy. Reminds me of Triangle Wizard a lot which a good thing. Decent mechanics, probably on the simpler end of a souls like, I'm just bad at them.
 
 ## Games I liked
 
@@ -116,6 +132,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Decent, follow up to Bio Prototype. Autoshooter where you craft your attacks, I like this more than your average auto shooter but it's still a bit boring. Graphics are cool though.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2827680/Block_Factory/"><h3>Block Factory</h3></a>
         <video width="80%" controls>
@@ -123,6 +141,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Shapez.io but with lego blocks, blocks are constructed in a 4x4x4 cube and can be cut, glued, and stacked. Neat. Didn't draw me in as much as Shapez.io initially did though.
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/490110/The_Precinct/"><h3>The Precinct</h3></a>
@@ -132,6 +152,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+1980's cop game with a focus on, not realism, but "actual" police work. You give out parking tickets AND have shoot outs with bank robbers. Decent, fun GTA as a cop style game. Story lays on the copaganda a bit thick though.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/1928080/Prospector/"><h3>Prospector</h3></a>
         <video width="80%" controls>
@@ -139,6 +161,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Kind of an Astroneers/Forager harvesting/automation game. Was cute, had a lot going on. Might be one to keep an eye on.
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/3015820/To_Kill_a_God/"><h3>To Kill a God</h3></a>
@@ -148,6 +172,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Room/Round based Roguelite with a diablo style inventory/gear system. Seems like it has a pretty indepth skill modification system. More fun than I thought it would be. Aesthetic is very crunchy pixel graphics too which I love.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2807150/Worshippers_of_Cthulhu/"><h3>Worshippers of Cthulhu</h3></a>
         <video width="80%" controls>
@@ -155,6 +181,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+It's Anno 1800 but you're a cult summoning eldritch creatures to fight the AI players. You can scarify your followers with symbols to change stats in a completely unnecessary but utterly cool pseudo mini game.
 
 ## Games that were meh
 
@@ -166,6 +194,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Basic Hotline Miami clone, stylish but didn't rock my socks the way OTXO did.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2707490/Tower_Factory/"><h3>Tower Factory</h3></a>
         <video width="80%" controls>
@@ -174,6 +204,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Versus Tower Defense (where you're sending enemies to each other), with resource gathering. It was *fine*.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/3106350/Westilds_Law/"><h3>Westlid's Law</h3></a>
         <video width="80%" controls>
@@ -181,6 +213,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+SNES era style twin stick shooter feels very similar to Nuclear Throne in some ways, it's cute but not enough going on to make me want to play it. Your bullets can deflect enemy bullets on direct hit which is super neat and it does the Hotline Miami style thing where guns are to be used till they're empty then thrown/discarded.
 
 ## Games that I did not like
 
@@ -192,6 +226,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Basic endless sky/escape velocity/star valor style game. Nothing to write home about.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2694200/Skybase/"><h3>Skybase</h3></a>
         <video width="80%" controls>
@@ -200,6 +236,8 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
         </video>
 </div>
 
+Wouldn't load, dev responded to forum post saying issue was fixed, issue was not fixed.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2091150/Apocalypse_Factory/"><h3>Apocalypse Factory</h3></a>
         <video width="80%" controls>
@@ -207,6 +245,9 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Not even an alpha, a bad tech demo. Might be an asset flip too. Basically unplayable.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2994990/Wool_at_the_Gates/"><h3>Wool at the Gates</h3></a>
         <video width="80%" controls>
@@ -214,6 +255,9 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Clone of Thronefall but you're the super sheep from the Worms series. If that sounds random... yeah. It was.
+
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/3018320/Avian_Colony/"><h3>Avian Colony</h3></a>
         <video width="80%" controls>
@@ -221,3 +265,5 @@ I'm a big fan of simple rating systems: You don't need a 10 point rating system,
                         Your browser does not support the video tag.
         </video>
 </div>
+
+Agrarian skies from minecraft but as a 3d god game. Felt really alpha and didn't gel with me.
