@@ -54,12 +54,12 @@ module.exports = function (eleventyConfig) {
         // Optional, default is "---"
         excerpt_separator: "<!-- excerpt -->"
       });
-    eleventyConfig.addPlugin(
-      require('@photogabble/eleventy-plugin-interlinker'),
-        {
-          defaultLayout: 'layouts/embed.liquid'
+    eleventyConfig.addPreprocessor("drafts", "njk,md,liquid", (data, content) => {
+        if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+          // Ignore this file.
+          return false;
         }
-      );
+      });
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     eleventyConfig.addPairedLiquidShortcode('fleximage', liquidfleximg);

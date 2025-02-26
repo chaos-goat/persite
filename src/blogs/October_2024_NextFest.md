@@ -4,6 +4,7 @@ permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
 layout: "base.njk"
 date: 2024-10-25
+draft: true
 ---
 
 I played so many games, warning - media heavy post. Lots of hotlinked webms.

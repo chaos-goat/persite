@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
     "@photogabble/eleventy-plugin-interlinker": "^1.0.6",
     "fast-glob": "^3.3.2",
     "markdown-it": "^14.1.0"
