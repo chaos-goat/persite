@@ -2,7 +2,6 @@
 title: "First Post!"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
-layout: "base.njk"
 date: 2023-12-16
 ---
 

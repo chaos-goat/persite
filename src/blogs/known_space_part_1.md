@@ -2,7 +2,6 @@
 title: "Known Space: Part 1"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
-layout: "base.njk"
 date: 2024-06-28
 ---
 

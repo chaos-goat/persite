@@ -2,7 +2,6 @@
 title: "Flow State vs Fugue State"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
-layout: "base.njk"
 date: 2024-02-24
 ---
 

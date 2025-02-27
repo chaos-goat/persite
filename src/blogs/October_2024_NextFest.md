@@ -2,7 +2,6 @@
 title: "Steam Next Fest October 2024"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
-layout: "base.njk"
 date: 2025-02-26
 draft: false
 ---
@@ -104,10 +103,7 @@ Extremely pre-alpha but also extremely promising. I've very much looking forward
 
 <div style="text-align: center;">
     <a href="https://store.steampowered.com/app/2063390/VA_Proxy/"><h3>V.A Proxy</h3></a>
-        <video width="80%" controls>
-                <source src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps//microtrailer.webm" type="video/webm">
-                        Your browser does not support the video tag.
-        </video>
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2063390/ss_f42eb91140a9a16df12c51b6661eeafcc01be910.1920x1080.jpg?t=1731847698" height="auto" max-width="100%">
 </div>
 
 Bastard love child of Furi, Nier Automata, and Risk of Rain 2. Hyper kinetic combat focused on parrying. Cool, weird glitch aesthetic and world. You really feel like a Robot Ninja while playing this.

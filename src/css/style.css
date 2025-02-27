@@ -16,14 +16,21 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		/*Tetradic on #131249*/
-		--main-bg-color: #131249;
+		/* --main-bg-color: #131249;
 		--primary-accent-color: #491312;
 		--secondary-accent-color: #492F12;
 		--tertiary-accent-color: #484912;
-		--tertiary-accent-color-dark: #36370E;
+		--tertiary-accent-color-dark: #36370E; */
+		--main-bg-color: #230341;
+		--primary-accent-color:  #06011E;
+		--secondary-accent-color: #47095B;
+		--tertiary-accent-color: #951292;
+		--tertiary-accent-color-dark: #AD157A;
 		--link-solid-color: white;
-		--link-standout-color: #492F12;
-		--link-standout-highlight: #484912;
+		/* --link-standout-color: #492F12;
+		--link-standout-highlight: #484912; */
+		--link-standout-color: #951292;
+		--link-standout-highlight: #AD157A;
 		--bg-background-image: url("/assets/bgrnd/WebsiteDarkBG.jpg");
 		--text-color: white;
 		color: white;
@@ -61,6 +68,9 @@ main{
 	padding-bottom: 5rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
+}
+
+#blogcontent {
 }
 
 /* needs a media query to make content stack when window gets below 500 px wide*/
@@ -390,13 +400,18 @@ body {
 		flex-direction: column;
 	}
 
-	.blogflex {
+	/* .blogflex {
 
 		& .bloga{
 		width: 100%;
 		min-width: 100%;
 		max-width: 100%;
 		}
+	} */
+
+	.bloggrid {
+		display: grid;
+		grid-template-columns: auto;
 	}
 }
 

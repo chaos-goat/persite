@@ -2,7 +2,6 @@
 title: "Top 10 Lists: A Mild Take"
 permalink: "/blog/{{ title | slugify }}/"
 tags: "blogs"
-layout: "base.njk"
 date: 2024-01-05
 ---
 
