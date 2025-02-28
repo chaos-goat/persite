@@ -389,19 +389,21 @@ body {
 .fleximgbig {
 	text-align: center;
 
-	& img {
-		max-width: 70%;
+	& a img {
+		max-width: 100%;
 		height: auto;
+		display: block;
+		margin: auto;
 	}
 
 	& figcaption {
 		font-style: italic;
 		font-size: 1rem;
-		line-height: 1rem;
+		line-height: 1.2rem;
 		background-color: black;
 		color: white;
 		padding: .25em;
-		max-width: 70%;
+		max-width: 100%;
 		margin: auto;
 	}
 }
