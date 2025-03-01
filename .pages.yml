@@ -1,0 +1,30 @@
+media:
+  input: src/assets/shortform/blog
+  output: assets/shortform/blog
+content:
+ - name: blogs
+   label: Blogs
+   type: collection
+   path: src/blogs
+   view:
+     fields: [ date, title ]
+   fields:
+     - name: draft
+       label: Draft
+       type: boolean
+       default: true
+     - name: permalink
+       label: Permalink
+       type: string
+       default: "/blog/{{ title | slugify }}/"
+     - name: date
+       label: Date
+       type: date
+     - name: title
+       label: Title
+       type: string
+     - name: body
+       label: Body
+       type: rich-text
+   
+   
