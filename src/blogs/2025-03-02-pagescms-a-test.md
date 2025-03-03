@@ -1,11 +1,11 @@
 ---
 draft: false
-permalink: /blog/{{ title | slugify }}/
+permalink: "/blog/{{ title | slugify }}/"
 date: 2025-03-02
-title: PagesCMS - A Test
+title: "PagesCMS - A Test"
+tags: "blogs"
 ---
-This is a brief test of [PagesCMS](https://pagescms.org/) \- a Git based online CMS I'm giving a shot. I'm currently engaged in an effort to make my blogging a bit more high speed, low drag so I'm more likely to actually... y'know. Blog.
-
+This is a brief test of PagesCMS a Git based online CMS I'm giving a shot. I'm currently engaged in an effort to make my blogging a bit more high speed, low drag so I'm more likely to actually... y'know. Blog.
 <!-- excerpt -->
 
 First you login with Github and then tell PagesCMS which project you want it to read, all good so far.
