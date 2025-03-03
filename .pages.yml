@@ -1,6 +1,6 @@
 media:
   input: src/assets/shortform/blog
-  output: assets/shortform/blog
+  output: /assets/shortform/blog
 content:
  - name: blogs
    label: Blogs
