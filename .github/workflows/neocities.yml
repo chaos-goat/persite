@@ -2,9 +2,10 @@ name: Deploy to neocities
 
 # only run on changes to master
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - main
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
