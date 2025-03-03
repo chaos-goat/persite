@@ -6,6 +6,8 @@ title: PagesCMS - A Test
 ---
 This is a brief test of PagesCMS a Git based online CMS I'm giving a shot. I'm currently engaged in an effort to make my blogging a bit more high speed, low drag so I'm more likely to actually... y'know. Blog.
 
+<!-- excerpt -->
+
 First you login with Github and then tell PagesCMS which project you want it to read, all good so far.
 
 Then, you set up the mother of all YAML files to create the interface with which you'll interact with the CMS:
