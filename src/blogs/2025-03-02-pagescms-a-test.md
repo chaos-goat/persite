@@ -1,12 +1,10 @@
 ---
 draft: false
-permalink: "/blog/{{ title | slugify }}/"
+permalink: /blog/{{ title | slugify }}/
 date: 2025-03-02
-title: "PagesCMS - A Test"
-tags: "blogs"
+title: PagesCMS - A Test
 ---
 This is a brief test of PagesCMS a Git based online CMS I'm giving a shot. I'm currently engaged in an effort to make my blogging a bit more high speed, low drag so I'm more likely to actually... y'know. Blog.
-<!-- excerpt -->
 
 First you login with Github and then tell PagesCMS which project you want it to read, all good so far.
 
@@ -47,12 +45,18 @@ That all creates a view like this for blog entry:
 
 ![](assets/shortform/blog/03-02-25/PagesCMS-MakingAPost.PNG)
 
+![](/assets/shortform/blog/03-02-25/PagesCMS-MakingAPost.PNG)
+
 And this for the list of blog entries:
 
 ![](assets/shortform/blog/03-02-25/PagesCMS-CMS-yStuff.PNG)
 
+![](/assets/shortform/blog/03-02-25/PagesCMS-CMS-yStuff.PNG)
+
 Speaking of which: You can use it to manage your media:
 
 ![](assets/shortform/blog/03-02-25/PagesCMS-AddingMedia.PNG)
+
+![](/assets/shortform/blog/03-02-25/PagesCMS-AddingMedia.PNG)
 
 Which is super neat. So far I'm a fan but only time will tell if I keep liking it. Also this is the first post and it might go tits up immediately which has been my experience with Webmentions so far (also recently added to this site... sort of).
