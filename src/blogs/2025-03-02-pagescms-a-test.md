@@ -6,8 +6,6 @@ title: PagesCMS - A Test
 ---
 This is a brief test of PagesCMS a Git based online CMS I'm giving a shot. I'm currently engaged in an effort to make my blogging a bit more high speed, low drag so I'm more likely to actually... y'know. Blog.
 
-<!-- excerpt -->
-
 First you login with Github and then tell PagesCMS which project you want it to read, all good so far.
 
 Then, you set up the mother of all YAML files to create the interface with which you'll interact with the CMS:
@@ -62,3 +60,5 @@ Speaking of which: You can use it to manage your media:
 ![](/assets/shortform/blog/03-02-25/PagesCMS-AddingMedia.PNG)
 
 Which is super neat. So far I'm a fan but only time will tell if I keep liking it. Also this is the first post and it might go tits up immediately which has been my experience with Webmentions so far (also recently added to this site... sort of).
+
+This is a test link
