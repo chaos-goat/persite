@@ -61,4 +61,4 @@ Speaking of which: You can use it to manage your media:
 
 Which is super neat. So far I'm a fan but only time will tell if I keep liking it. Also this is the first post and it might go tits up immediately which has been my experience with Webmentions so far (also recently added to this site... sort of).
 
-This is a test link
+[This is a test link](https://chaosgoat.neocities.org/blog/pagescms-a-test/)
