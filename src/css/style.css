@@ -10,6 +10,7 @@
 	--link-standout-highlight: #c0ffe4;
 	--bg-background-image: url("/assets/bgrnd/basebackground3.jpg");
 	--text-color: black;
+	--pre-color: #f1f1f1;
 	color: black;
 }
 
@@ -33,6 +34,7 @@
 		--link-standout-highlight: #AD157A;
 		--bg-background-image: url("/assets/bgrnd/WebsiteDarkBG.jpg");
 		--text-color: white;
+		--pre-color: #0e0e0e;
 		color: white;
 	}
 
@@ -81,7 +83,21 @@ main{
 	}
 
 	blockquote {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 1em;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		padding-right: 0.8em;
+		border-left: 5px solid var(--link-standout-highlight);
+		margin-bottom: 2.5rem;
+		background-color: var(--pre-color);
+		font-style: italic;
 
+		footer {
+			text-align: right;
+			font-style: normal;
+		}
 	}
 
 	aside {
@@ -89,11 +105,26 @@ main{
 	}
 
 	table {
-
+		text-align: justify;
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 2rem;
 	}
 
-	pre {
+	td, th {
+		padding: 0.5em;
+		border-bottom: 1px solid var(--link-solid-color);
+	  }
+	  
 
+	pre {
+		background-color: var(--pre-color);
+		display: block;
+		padding: 1em;
+		overflow-x: auto;
+		margin-top: 0px;
+		margin-bottom: 2.5rem;
+		font-size: 0.9em;
 	}
 
 	code, samp, kbd {
