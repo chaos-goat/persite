@@ -78,6 +78,11 @@ main{
 	padding-left: 2rem;
 	padding-right: 2rem;
 
+	.posttitle {
+		h1 {margin-bottom: 0px;}
+		p {margin-top: 0px;}
+	}
+
 	img, video {
 		max-width: 100%;
 	}
@@ -559,7 +564,15 @@ body {
 		display: grid;
 		grid-template-columns: auto;
 	}
+
+	#blogcontent {
+
+		padding-bottom: 5rem;
+		padding-left: 0rem;
+		padding-right: 0rem;}
 }
+
+
 
 .flexicoend {
 	display: flex; 

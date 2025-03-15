@@ -3,6 +3,10 @@ layout: base.njk
 ---
 
 <section id="blogcontent">
+    <div class="posttitle">
+        <h1>{{title}}</h1>
+        <p>{{ date | postDate }}</p>
+    </div>
     {{ content | safe }}
 </section>
 <section id="webmentions"></section>
