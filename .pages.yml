@@ -23,6 +23,9 @@ content:
      - name: title
        label: Title
        type: string
+     - name: excerpt
+       label: Excerpt
+       type: string
      - name: body
        label: Body
        type: rich-text
