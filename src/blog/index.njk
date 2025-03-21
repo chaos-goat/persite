@@ -14,7 +14,12 @@ desc: "What it says on the tin: A blog!"
                     <h3>{{ blog.data.title }}</h3>
                     <p>{{ blog.date | postDate }}</p>
                 </div>
-                <p>{{ blog.page.excerpt | md | safe }}</p>
+                <p>{% if blog.data.excerpt %}
+                    {{ blog.data.excerpt | md | safe }}
+                  {% else %}
+                    {{ blog.page.excerpt | md | safe }}
+                  {% endif %}
+                </p>
             </div>
         </a>
 {% endfor %}

@@ -3,6 +3,7 @@ draft: true
 permalink: /blog/{{ title | slugify }}/
 date: 2025-03-03
 title: StyleGuide
+excerpt: This is a *test* **excerpt** coming from post.data 
 ---
 This is a paragraph.
 
@@ -39,7 +40,7 @@ This is a paragraph.
 | Table Row 1, Column 1 | Table Row 1, Column 2 | Table Row 1, Column 3 |
 | Table Row 2, Column 1 | Table Row 2, Column 2 | Table Row 2, Column 3 |
 
-> This is a blockquote. I think
+> This is a simple blockquote. I think
 
 ```
 And example of code
