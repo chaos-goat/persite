@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 date: 2025-04-03
 title: Circle DC - 3 days of Historical Board Gaming
