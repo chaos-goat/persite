@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 date: 2025-04-14
 title: The Importance Of Gaming With The Homies
