@@ -11,6 +11,7 @@
     display: block;
     width: 100%;
     background: #eee;
+    text-align: center;
 }
 
 h4 {
@@ -74,6 +75,19 @@ body {
         top: 0;
         /* left: 0; */
         width: 80%;
+    }
+
+    .navlist {
+        list-style: none;
+
+        li {
+            position: relative;
+            float: left;
+
+            a {
+                margin-right: 2rem;
+            }
+        }
     }
 }
 
