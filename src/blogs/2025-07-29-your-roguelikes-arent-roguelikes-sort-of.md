@@ -8,6 +8,12 @@ I love taunting people with forthcoming blog posts that will never actually come
 
 ![](/assets/shortform/blog/29-07-25/BlogTaunting.png)
 
+This is my 3rd time trying to write this and each time I get stuck in the morass of explaining the dreaded _video game genre_. Here's this thing, this is my thesis statement here: video game genres are nearly meaningless. Hold on, hear me out. As I sit here, at a laundromat on a Sunday morning typing this out on my phone, this post is titled "Your Roguelikes aren't Roguelikes... Sort of." and while that title may change that is the impetus behind this post.
+
+Genre exists as a way to classify and categorize things. That and maybe enabling comparison of similar things is pretty much it's only use. In literature its comprised of tone, setting, length, style.
+
+As consumers the comparison helps us find things that are like other things we already like.
+
 Those tomatoes are from the wonderful [Yequari](https://yequari.com/) and [emma](https://emmas.place/index.html). They're right to throw tomatoes since that could easily be a gatekeeping statement but that's not really how I mean it. Lets talk about game genre.
 
 Genre in video games is different than music, film, literature in that while it's used to categorize things the same way the method of categorization is in how you interact with the work. Instead of being stylistic, tonal, length, setting, etc based like it is in other media in video games it's a lot more nebulous. Take RPGs: What does RPG mean in a game sense? I've had discussions with friends where they'll say things like "Well, you're playing a role, so everything is an RPG." And while I'm truly all in on reductive arguments like that; a role playing game (in video game terms) isn't about playing a role. There is a history to the term that influences how it's used. It means it's like a Tabletop Roleplaying Game (TTRPG) like Dungeons and Dragons. And it generally means you have stats, and a system for leveling up. That's all RPG on it's own means with video games. That right there, that extremely specific mechanics based focus is why you get this soup of genres when games are described. Just some examples from my steam wishlist:
