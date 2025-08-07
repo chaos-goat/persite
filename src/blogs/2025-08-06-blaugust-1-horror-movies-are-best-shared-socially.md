@@ -9,4 +9,25 @@ So - Horror movies. I watch a _lot_ of horror. There are a few reasons for this:
 
 The best way to confront these anxieties is with people, likeminded freaks who also want to peel back the scabs of society and see what squirms beneath. There is an energy to a crowd, especially an appreciative crowd. It's not super different from the midnight showing crowds. Its fun to talk about the movies afterwards, it's weird: each death becomes it's own character; each one says something. These aren't just about societal anxiety, they're morality tales. That's why the kids who do drugs or have sex die. That's why strangers are "dangerous". That's why the _other_ is portrayed as the villain. It works both ways too - there is a _lot_ of queer horror out there. Everyone's got anxieties.
 
-I have lots of friends into horror, and watching it with them is fun. Lately I've been
+Lately I've been introducing my kids to classic(ish) horror. They're 16 year old spooky bitches and on Thursdays I've been dragging them to a local movie series called **"Spook-o-Rama"** where we watch sometimes amazing horror (_Event Horizon_) sometimes... not so amazing horror (_Seed of Chucky_). And they've been enjoying the hell out of it. So far we've seen:
+
+*   Event Horizon
+    
+*   Night of the Creeps
+    
+*   Pet Sematery
+    
+*   Jennifer's Body
+    
+*   Carrie
+    
+*   Texas Chainsaw Massacre (1974)
+    
+*   Seed of Chucky
+    
+*   The Hills Have Eyes (2006)
+    
+*   Eight Legged Freaks
+    
+
+Jennifer's Body was the only one not new to them and in general they've absolutely loved them. Event Horizon and Carrie were favorites of theirs. The remake of The Hills Have Eyes was a bit much which like yeah fair, the new french extremity isn't for everyone. It's not even really for me. But spending time with them, sharing my love of horror with them it's been fun. I'm also getting an eye into their anxieties and the generational differences are really interesting.
