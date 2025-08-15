@@ -14,7 +14,17 @@ Don't worry! I'm not gatekeeping your roguelikes, my roguelikes aren't roguelike
 
 Also I love that I happened to grab a screenshot that included d-beat while I'm listening to [some](https://dischargeofficialmusic.bandcamp.com/track/state-violence-state-control). It's not for everyone but it fits the internal cacophony in my head at all times. Anyways back on topic - we categorize things pathologically and I'd argue for cinema and literature that mostly works. You can view both of those through the lens of the author/auteur as well but when it comes to comparing and contrasting films/books or finding things similar to what you already like the way we use genre to categorize things works really well. I think in general it falls apart a bit with music, we hybridize things so aggressively in music that you end up in the weird realm of microgenres really quickly and that's not exactly helpful. For example: I like a lot of witch house but what I'm really saying there is I like synthwave with an occult aesthetic, both visually and aurally. It's so niche I don't think it's particularly useful as a point of comparison, especially since at least part of that microgenre is visually aesthetic in nature which is weird to include in music. I don't like Judas Priest because of the leather daddy/biker aesthetic, I like them because they're ass kicking metal.
 
-So how does that relate to genre in video games? When we talk about game genre there are two things I think that work against it. The first is that a lot of genre names/descriptions rely on historical context to make sense and without that they lose a lot of their intended meaning: Adventure, Simulation, RPG are categories that have all become at least somewhat meaningless. Bullethell has a fairly specific (though like all video game genres largely vibes based) meaning but gets applied to most STG/Shmups indiscriminately. Then it gets use
+So how does that relate to genre in video games? When we talk about game genre there are two things I think that work against it. The first is that a lot of genre names/descriptions rely on historical context to make sense and without that they lose a lot of their intended meaning: Adventure, Simulation, RPG are categories that have all become at least somewhat meaningless. Bullethell has a fairly specific (though like all video game genres largely vibes based) meaning but gets applied to most STG/Shmups indiscriminately.
+
+Bullet Hell:
+
+![](/assets/shortform/blog/2025-08-15-roguelikes/bullethell.gif)
+
+not Bullet Hell:
+
+![](/assets/shortform/blog/2025-08-15-roguelikes/notbullethell.gif)
+
+But you can see, they're the same kind of game either way. You control a small character on a field with enemies that are exchanging fire with you. You're dodging bullets. You have a score. They have bangin' soundtracks. But vibes based... yeah one of those feels like being in hell, the other not so much.
 
 This is my 3rd time trying to write this and each time I get stuck in the morass of explaining the dreaded _video game genre_. Here's this thing, this is my thesis statement here: video game genres are nearly meaningless. Hold on, hear me out. As I sit here, at a laundromat on a Sunday morning typing this out on my phone, this post is titled "Your Roguelikes aren't Roguelikes... Sort of." and while that title may change that is the impetus behind this post.
 
