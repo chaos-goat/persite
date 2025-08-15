@@ -8,6 +8,8 @@ I love taunting people with forthcoming blog posts that will never actually come
 
 ![](/assets/shortform/blog/29-07-25/BlogTaunting.png)
 
+Don't worry! I'm not gatekeeping your roguelikes, my roguelikes aren't roguelikes either because video game genre is _meaningless_. Do I have your attention? I hope that sounds as bold as I think it does. Here's the deal, we (humans... and especially nerds) **LOVE** to categorize things. Like seriously, we're kind of pathological about it, have you ever looked at music genres like on [musicmap](https://musicmap.info/)? It's nuts.
+
 This is my 3rd time trying to write this and each time I get stuck in the morass of explaining the dreaded _video game genre_. Here's this thing, this is my thesis statement here: video game genres are nearly meaningless. Hold on, hear me out. As I sit here, at a laundromat on a Sunday morning typing this out on my phone, this post is titled "Your Roguelikes aren't Roguelikes... Sort of." and while that title may change that is the impetus behind this post.
 
 Genre exists as a way to classify and categorize things. In literature and film genre is comprised of tone, setting, length, style, mood, theme. And it makes sense that they're so linked since film criticism borrows so much from literary theory. If you use the same tools to critically look at two different things you'll probably end up categorizing them in similar ways. So how does this relate to video game genre? Video game genres are mechanics driven owing to the interactive nature of the medium.
