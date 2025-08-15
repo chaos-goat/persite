@@ -1,7 +1,7 @@
 ---
 draft: true
 permalink: /blog/{{ title | slugify }}/
-date: 2025-07-29
+date: 2025-08-15
 title: Your Roguelikes Aren't Roguelikes... Sort Of.
 ---
 I love taunting people with forthcoming blog posts that will never actually come... but sometimes it has me thinking. And then the blogpost comes.
