@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 date: 2025-08-15
 title: Blaugust 2 - Your Roguelikes Aren't Roguelikes... Sort Of.
