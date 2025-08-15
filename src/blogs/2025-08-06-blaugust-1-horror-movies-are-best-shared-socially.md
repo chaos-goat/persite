@@ -1,7 +1,10 @@
 ---
 draft: true
 permalink: /blog/{{ title | slugify }}/
+date: 2025-08-14
 title: Blaugust 1 - Horror Movies Are Best Shared Socially
+excerpt: "So - Horror movies. I watch a lot of horror. There are a few reasons
+  for this: I like seeing unhinged shit I've never seen before..."
 ---
 Well this is my first Blaugust post after spinning my wheels on what was meant to be my first post.
 
