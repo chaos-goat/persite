@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 date: 2025-08-14
 title: Blaugust 1 - Horror Movies Are Best Shared Socially
