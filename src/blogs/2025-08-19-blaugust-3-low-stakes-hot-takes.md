@@ -23,7 +23,7 @@ I played EverQuest for 10 years, I helped run a raiding guild. It was a full tim
 
 ### Take 3A: Live service games are the same as MMOs, but worse
 
-I thought of this after writing the short paragraph above, but I have even more problems with live service games. Not only are they predatory with how they try to trick you into wasting huge amounts of time on them they're also kind of creatively bankrupt. They're balanced for the meta which can cause large amounts of investment into a character, or gameplay style, to be wasted or lessened. They go belly up so frequently that I can't imagine really giving a lot of time to a new one. The communities are full of toxic shitheads. They're built upon thrones of crunch and hype and fomo and all things that are just toxic to making a good, enduring product.
+I thought of this after writing the short paragraph above, but I have even more problems with live service games. Not only are they predatory with how they try to trick you into wasting huge amounts of time on them they're also kind of creatively bankrupt. They're balanced for the meta which can cause large amounts of investment into a character, or gameplay style, to be wasted or lessened. They go belly up so frequently that I can't imagine really giving a lot of time to a new one. The communities are full of toxic shitheads. They're built upon thrones of crunch and hype and FOMO and all things that are just toxic to making a good, enduring product.
 
 ## Take 4: A roadmap doesn't make up for your game sucking
 
