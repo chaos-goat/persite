@@ -1,8 +1,9 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 date: 2025-08-19
 title: Blaugust 3 - Low Stakes Hot Takes
+excerpt: Krikket wanted our low stakes hot takes. I am here to stand and deliver!
 ---
 [Krikket](https://nerdgirlthoughts.game.blog/2025/08/18/blaugust2025-group-project-my-low-stakes-hot-take/) wanted our low stakes hot takes. I am here to stand and deliver!
 
@@ -27,3 +28,5 @@ I thought of this after writing the short paragraph above, but I have even more 
 ## Take 4: A roadmap doesn't make up for your game sucking
 
 So many games release in such a half baked state that they're unenjoyable, unplayable, unstomachable, etc but they have an amazing looking roadmap with either no timeline or an ill defined timeline about all the cool features they'd like to add. This roadmap is a lie. Even when it comes true, it was a lie when it was written. It was marketing and if there is one thing we should not trust: it is marketing. And video game genre descriptions. Those are also lies, but I wrote a blog post about that already.
+
+There you go, some low stakes hot takes, email me at [chaosgoat@omg.lol](mailto:chaosgoat@omg.lol) or drop me a webmention to let me know how badly you disagree with me!
