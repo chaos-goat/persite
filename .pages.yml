@@ -17,6 +17,9 @@ content:
        label: Permalink
        type: string
        default: "/blog/{{ title | slugify }}/"
+     - name: tags
+       label: Tags
+       type: text
      - name: date
        label: Date
        type: date
