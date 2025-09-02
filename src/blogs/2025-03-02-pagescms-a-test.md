@@ -1,6 +1,9 @@
 ---
 draft: false
 permalink: /blog/{{ title | slugify }}/
+tags:
+- blogs
+- software
 date: 2025-03-02
 title: PagesCMS - A Test
 ---
