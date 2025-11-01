@@ -1,6 +1,7 @@
 ---
 draft: false
 permalink: /blog/{{ title | slugify }}/
+tags: blogs,blaugust2025,opinions
 date: 2025-08-19
 title: Blaugust 3 - Low Stakes Hot Takes
 excerpt: Krikket wanted our low stakes hot takes. I am here to stand and deliver!
