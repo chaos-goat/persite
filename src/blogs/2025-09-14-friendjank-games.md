@@ -7,4 +7,28 @@ title: Friendjank Games
 ---
 I was talking with a friend about so called [Friendslop](https://knowyourmeme.com/memes/friendslop) games and in attempting to define them I found this [substack](https://exploringthegames.substack.com/p/what-is-friendslop-lethal-company-co-op-games). Good work defining it and they give some pretty basic recommendations, I'd like to follow up with some more but first I want to blab about these games for a bit.
 
-Now I don't like the slop part of the name, that to me feels negative. I'd have called it friendjank which probably sounds as negative but when I use jank like that I mean it in a positive way. It's janky sure, but it has _flavor_. Anyways - this "new" breed of game really intrigues me. I don't actually _like_ any of them. Like not a single goddamn one, but I _love_ playing them with my friends. Even beyond the normal "I'm having fun because I'm playing with my friends whom I could have fun watching paint dry with." kind of way. Something about the mix of the games wackiness and friends really makes them pop for me. On the one hand it's like watching horror movies with a group - they're always best experienced with other people. On the other it adds in the frustration of screaming at a friend to "PIVOT!" when carrying a couch upstairs, but in a fun way.
+I'm also gonna call it friendjank instead of friendslop because slop squicks me out. Sorry Gen Zers and Alphas. I got old I guess.
+
+## Escape the Backrooms
+
+If you had told me I'd like this game before last year I wouldn't have believed you. I don't like janky bullshit physics and "so bad it's good" (but really it's bad) gameplay. But what drew me in is the creativity and breadth of stuff in this game. I'm not even super into the backrooms as a fictional conceit, I just loved playing through bite size levels that were all different in vibe from each other. And as a co-op game it's pretty decent, it has a nice challenge gradient with more players being added.
+
+Of particular interest are the levels like Light's Out which uses a sonar like device to paint dots over a pitch black maze so you can find your way. Very reminiscent of Scanner Sombre. Or Level 9223372036854775807 which is an infinite staircase. Yeah, there's a trick to it, figure it out. Or the creepy ass song heard in the party level:
+
+> Yesterday, I saw Fred,
+> 
+> To return his collarbone
+> 
+> made of bread,
+> 
+> may I taste your bladder?
+> 
+> I'm craving some
+> 
+> GUY-GRAVY!
+> 
+> Moisten your calender...
+
+_So creepy._
+
+## Space Beast Terror Fright
