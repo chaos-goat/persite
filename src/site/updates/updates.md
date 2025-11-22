@@ -5,6 +5,14 @@ desc: "A list of the updates to this site... and I'm sure an ever growing list o
 tags: "sitestuff"
 permalink: "/updates/"
 ---
+ - 11/22/25
+    - Right, I have an updates page... oops    
+    - Added PinkRing Webring to main page
+---
+
+ *a long time passes, many updates*
+
+---
 - 7/11/24
     - new Blog Post
     - yet more minor styling changes
