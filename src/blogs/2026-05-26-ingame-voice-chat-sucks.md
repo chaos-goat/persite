@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 permalink: /blog/{{ title | slugify }}/
 tags: games, multiplayer, technology, voicechat, discord
 date: 2026-05-26
