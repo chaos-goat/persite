@@ -4,6 +4,7 @@ permalink: /blog/{{ title | slugify }}/
 tags: mmo, games, gaming, grognard, old, retro
 date: 2026-07-13
 title: Dead MMOs, Long Live MMOs
+excerpt: In which I talk about the MMOs I've been playing.
 ---
 I used to play tons of Massively Multiplayer Online (MMO) games. Everquest, Ultima Online, Dark Age of Camelot, Shadowbane, Auto Assault, Everquest 2, Guild Wars (not technically an MMO, I don't care), Tabula Rasa, City of Heroes, Lineage 2... the list does actually keep going on. Lots of free Korean ones over the years too. Over the years I've fallen off - I ran a hardcore raiding guild for years and don't have it in me to take on that full time job again. I don't even have the time to play casually unless I solo and I really like playing WITH people. But...
 
