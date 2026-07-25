@@ -1,11 +1,23 @@
 ---
 draft: true
 permalink: /blog/{{ title | slugify }}/
-date: 2026-07-23
+date: 2026-07-25
 title: Everquest Legends is...
 excerpt: "*frustrated noises*"
 ---
-So there is a new Everquest server coming out. I'd say a new ruleset but I think that is burying the lead a bit. Everquest legends - a grandiose title for ... one of the servers of all time. So here's the deal: lot of changes on this server.
+So there is a new Everquest server coming out. I'd say a new ruleset but I think that is burying the lead a bit. It is radically different from the OG everquest: multi classing, adhoc zone instancing, class/race/deity changing at will, item and spell upgrades... it's a lot. Everquest legends - a grandiose title for a mediocre take on the game - in a nutshell my thesis is this: the devs are in over their heads. 
+
+They're launching in a state where class balance is all over the place, very few zones have been changed (5 out of around 100) intentionally, those 5 are the kind of rough pass someone could do in an afternoon on a private server. Spawn locations, quests, etc of the zone haven't been changed. They've either been given some new rare mobs with the new loot, or the loot has been added to the drop tables for existing mobs. One of them was releveled to provide a smooth level progression from the front to the back but just one of them. This is such a minimal amount of design work it's unreal. They've added new zones for two of the races that don't have home zones in this version of EQ but one of them they just put into a mid level zone.
+
+They've made huge systems changes to the game but they haven't really figured out how they all interlock. And I'm frustrated by this. I was excited for a version of Everquest where I could attack raids and high end zones with just a couple of friends. What I've gotten is this weird version of everquest that clearly preferences solo play over group pay, but it has a monthly fee. And a box fee. And a cash shop. And paid expansions (of stuff that's been out for *twenty five* years). A game that you can play at your own pace, but they have weekly raid lockouts in place to stop you from progressing too fast. A game where grouping up for experience is slower than soloing because you kill faster than mobs respawn. A game where you can unlock all races, classes, and deities on your one character allowed per server, but then what does that mean for your character? What even ***are*** you then?
+
+Communication with this dev team is bad too. They have a discord which is moderated okay, but the community is full of raging assholes - I have *NEVER* blocked this many people in my life. The hype poisoning is real. All communication is done via minimal patch notes, live streams, and occasional off the cuff comments. There's no real mention of the ethos they want to bring to the game over than what is available on the main site where you can buy the game. That is written in a way where two reasonable people can read it and have wildly different take aways from it. But aside from promising a roadmap which was delivered today it's silence. Silence and underwhelming patch notes. Speaking of the roadmap:
+
+
+
+&nbsp;
+
+ne of the servers of all time. So here's the deal: lot of changes on this server.
 
 - Triple classing - select 3 character classes instead of one
 - Class changing - you can change classes not quite on the fly but close to it
