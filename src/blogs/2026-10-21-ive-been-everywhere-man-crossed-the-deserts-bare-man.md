@@ -1,0 +1,18 @@
+---
+draft: true
+permalink: /blog/{{ title | slugify }}/
+date: 2026-10-21
+title: I've Been Everywhere, Man / Crossed The Deserts Bare, Man
+excerpt: Waxing poetic about the hanging with the homies
+---
+I have traveled a ton in the last five weeks and I've had fun. I am also *exhausted* like what the hell man I'm nearly forty I can't do this shit anymore.
+
+First! I went to XANDRA'S wedding. Y'all she's even weirder in real life (read that as she's a wonderful, mostly not that weird, human being). But seriously, it was a wonderful ceremony, her fiance IS that weird (viking music and aquaculture were mentioned) and also was wonderful. And she had a magician there that I'm pretty sure nonconsensually rooted around in my mind. She also forced me to take home a tiny teacup because that's how non weird she is don't question it.
+
+So then I come back from the wedding and two weeks later I drive out to WASTELAND WEEKEND! where I spent four days in the dirt with my homies mad max LARPing and drinking an obnoxious amount of alcohol. It was pretty good but I went with my youngest brother for the second time and I don't know what's wrong with the younger twenty somethings today but they are terrible roadtrip companions. Hard to explain without getting into an exhaustive list but I think the main complaint would be just not being present in the moment, y'know? 
+
+Anyways this year we left on Tuesday night to get into the midnight line to be there for the gates to open and for me personally this is just not the way to go. I told him I'm much better off showing up after the event has started (gates open at 7 AM Wednesday) and setting up that evening - to which his response was "But bro, we're literally losing money.". Kids. I swear. This year there were problems and the line didn't start moving till 10 AM. The way they moderate their discord is insane and they just removed without comment any questions about the wait - eventually telling people it was off topic for their general discussion channel. Wild. We didn't get in till 1:30, I started setting my tent up at 2 ("had" to drop off the little bro with his buddies in a different area first).
+
+Now here's the thing. I worked on Tuesday. I got off of work, packed, picked little bro up, then drove to California. I got there at 3 AM. I never got sleep in the line because sleeping in a car that's not moving is impossible for me. I've been up over 24 hours at this point, but it's 95 degrees out, I can't sleep in the tent - what am I, a lizard?! So I dress up in my costume, go into town and start hanging out with the homies. Get slapped with seaweed, introduce people to the Rock n Rye I made, go to an "Alchemist" (homemade alcohols) meetup where my Rock n Rye is a hit, watch a midnight showing of Water World y'know the usual. I stumble back to my tent and crash HARD at 1 AM, having been up for 44 hours. I am too old for this shit. The rest of the event is excellent minus not being able to get my brother to compete in the thunderdome with me. Coward.
+
+A week later... I drive into California again! For a board gaming weekend with my board game development homies at my publisher's warehouse. Again - this was super fun, I played the War of the Ring Card Game and lost my mind becoming obsessed with it. I drove there with a friend who flew into Arizona for the event and before driving into California we went to an extremely bougie local fine dining place called "Christopher's at Wrigely Mansion". Y'all. The views and food were to die for - I will at some point 
